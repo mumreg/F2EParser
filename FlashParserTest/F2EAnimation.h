@@ -12,6 +12,8 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <fstream>
+
 #include "F2EParser.h"
 #include "F2EUtils.h"
 
@@ -23,6 +25,8 @@ public:
     F2EAnimation(const char *animationName);
     
 private:
+    string getFileContent(const char *fileName);
+    
     string name;
     F2EParser *parser;
     vector<F2ESprite> sprites;

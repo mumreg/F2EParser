@@ -1,2 +1,10 @@
 
 .DS_Store
+
+*.xcbkptlist
+
+*.xcuserstate
+
+FlashParserTest.xcodeproj/project.xcworkspace/xcuserdata/MP.xcuserdatad/UserInterfaceState.xcuserstate
+
+*.xcuserstate

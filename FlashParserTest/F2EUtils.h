@@ -9,14 +9,22 @@
 #ifndef FlashParserTest_F2EUtils_h
 #define FlashParserTest_F2EUtils_h
 
+#define DEBUG 1
+
+#ifdef DEBUG
+    #define F2E_DEBUG(x) std::cout << x
+#else
+    #define F2E_DEBUG(x)    ;
+#endif
+
 typedef struct _F2ESprite
 {
-    string name;
+    std::string name;
     
     float width;
     float height;
     
-    string path;
+    std::string path;
     
     float anchorPointX;
     float anchorPointY;
@@ -39,15 +47,15 @@ typedef struct _F2EFrame
 
 typedef struct _F2EPart
 {
-    string partName;
-    vector<F2EFrame> frames;
+    std::string partName;
+    std::vector<F2EFrame> frames;
 } F2EPart;
 
 typedef struct _F2EAnimationPart
 {
-    string animationName;
+    std::string animationName;
     unsigned int frameCount;
-    vector<F2EPart> parts;
+    std::vector<F2EPart> parts;
 } F2EAnimationPart;
 
 #endif

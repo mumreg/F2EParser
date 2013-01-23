@@ -11,7 +11,10 @@
 
 #include <iostream>
 #include <string>
+#include <vector>
 #include "rapidxml.hpp"
+
+#include "F2EUtils.h"
 
 using namespace std;
 
@@ -22,6 +25,8 @@ public:
     ~F2EParser();
     
     void parseText(string *text);
+    void parseSprites(string *buffer, vector<F2ESprite> *sprites);
+    void parseAnimations(string *buffer, vector<F2EAnimationPart> *animations);
 };
 
 #endif /* defined(__FlashParserTest__F2EParser__) */
