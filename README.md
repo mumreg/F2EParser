@@ -1,4 +1,4 @@
 F2EParser
 =========
 
-Parser for exporting from flash (xml from grapefrukt exporter) to your game engine
+Parser for exporting animation from flash (xml from grapefrukt exporter) to your game engine
