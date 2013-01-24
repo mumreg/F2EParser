@@ -1,6 +1,6 @@
 //
 //  F2EUtils.h
-//  FlashParserTest
+//  Flash2EngineParser
 //
 //  Created by Mikhail Perekhodtsev on 23.01.13.
 //
@@ -21,8 +21,8 @@ typedef struct _F2ESprite
 {
     std::string name;
     
-    float width;
-    float height;
+    unsigned int width;
+    unsigned int height;
     
     std::string path;
     

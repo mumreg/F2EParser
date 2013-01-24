@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED0ED0E116B11D9F00AF05F7 /* Sc01_arm1.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0ED0D816B11D9F00AF05F7 /* Sc01_arm1.png */; };
+		ED0ED0E216B11D9F00AF05F7 /* Sc01_arm2.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0ED0D916B11D9F00AF05F7 /* Sc01_arm2.png */; };
+		ED0ED0E316B11D9F00AF05F7 /* Sc01_body02.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0ED0DA16B11D9F00AF05F7 /* Sc01_body02.png */; };
+		ED0ED0E416B11D9F00AF05F7 /* Sc01_body1.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0ED0DB16B11D9F00AF05F7 /* Sc01_body1.png */; };
+		ED0ED0E516B11D9F00AF05F7 /* Sc01_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0ED0DC16B11D9F00AF05F7 /* Sc01_bottom.png */; };
+		ED0ED0E616B11D9F00AF05F7 /* Sc01_head.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0ED0DD16B11D9F00AF05F7 /* Sc01_head.png */; };
+		ED0ED0E716B11D9F00AF05F7 /* Sc01_kids.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0ED0DE16B11D9F00AF05F7 /* Sc01_kids.png */; };
+		ED0ED0E816B11D9F00AF05F7 /* Sc01_Anim.xml in Resources */ = {isa = PBXBuildFile; fileRef = ED0ED0DF16B11D9F00AF05F7 /* Sc01_Anim.xml */; };
+		ED0ED0ED16B1271A00AF05F7 /* Sc01_Sheet.xml in Resources */ = {isa = PBXBuildFile; fileRef = ED0ED0EC16B1271A00AF05F7 /* Sc01_Sheet.xml */; };
 		EDBF73DB16AFECEA00F99767 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBF73DA16AFECEA00F99767 /* QuartzCore.framework */; };
 		EDBF73DD16AFECEA00F99767 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBF73DC16AFECEA00F99767 /* OpenGLES.framework */; };
 		EDBF73DF16AFECEA00F99767 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBF73DE16AFECEA00F99767 /* OpenAL.framework */; };
@@ -130,12 +139,21 @@
 		EDBF755C16AFECED00F99767 /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = EDBF755B16AFECED00F99767 /* vec4.c */; };
 		EDBF756116AFECED00F99767 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBF756016AFECED00F99767 /* main.m */; };
 		EDBF756416AFECED00F99767 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBF756316AFECED00F99767 /* AppDelegate.m */; };
-		EDBF756716AFECED00F99767 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBF756616AFECED00F99767 /* HelloWorldLayer.m */; };
+		EDBF756716AFECED00F99767 /* HelloWorldLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = EDBF756616AFECED00F99767 /* HelloWorldLayer.mm */; };
 		EDBF757816B0068900F99767 /* F2EParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDBF757616B0068900F99767 /* F2EParser.cpp */; };
 		EDBF757C16B0073500F99767 /* F2EAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDBF757A16B0073500F99767 /* F2EAnimation.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED0ED0D816B11D9F00AF05F7 /* Sc01_arm1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sc01_arm1.png; sourceTree = "<group>"; };
+		ED0ED0D916B11D9F00AF05F7 /* Sc01_arm2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sc01_arm2.png; sourceTree = "<group>"; };
+		ED0ED0DA16B11D9F00AF05F7 /* Sc01_body02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sc01_body02.png; sourceTree = "<group>"; };
+		ED0ED0DB16B11D9F00AF05F7 /* Sc01_body1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sc01_body1.png; sourceTree = "<group>"; };
+		ED0ED0DC16B11D9F00AF05F7 /* Sc01_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sc01_bottom.png; sourceTree = "<group>"; };
+		ED0ED0DD16B11D9F00AF05F7 /* Sc01_head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sc01_head.png; sourceTree = "<group>"; };
+		ED0ED0DE16B11D9F00AF05F7 /* Sc01_kids.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sc01_kids.png; sourceTree = "<group>"; };
+		ED0ED0DF16B11D9F00AF05F7 /* Sc01_Anim.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Sc01_Anim.xml; path = Resources/Sc01_Anim.xml; sourceTree = "<group>"; };
+		ED0ED0EC16B1271A00AF05F7 /* Sc01_Sheet.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Sc01_Sheet.xml; path = Resources/Sc01_Sheet.xml; sourceTree = "<group>"; };
 		EDBF73D616AFECEA00F99767 /* FlashParserTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashParserTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDBF73DA16AFECEA00F99767 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		EDBF73DC16AFECEA00F99767 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -394,7 +412,7 @@
 		EDBF756216AFECED00F99767 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EDBF756316AFECED00F99767 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EDBF756516AFECED00F99767 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		EDBF756616AFECED00F99767 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
+		EDBF756616AFECED00F99767 /* HelloWorldLayer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HelloWorldLayer.mm; sourceTree = "<group>"; };
 		EDBF757016AFED1300F99767 /* rapidxml.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml.hpp; sourceTree = "<group>"; };
 		EDBF757116AFED1300F99767 /* rapidxml_iterators.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_iterators.hpp; sourceTree = "<group>"; };
 		EDBF757216AFED1300F99767 /* rapidxml_print.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_print.hpp; sourceTree = "<group>"; };
@@ -426,6 +444,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED0ED0D716B11D9F00AF05F7 /* anim_sc01 */ = {
+			isa = PBXGroup;
+			children = (
+				ED0ED0D816B11D9F00AF05F7 /* Sc01_arm1.png */,
+				ED0ED0D916B11D9F00AF05F7 /* Sc01_arm2.png */,
+				ED0ED0DA16B11D9F00AF05F7 /* Sc01_body02.png */,
+				ED0ED0DB16B11D9F00AF05F7 /* Sc01_body1.png */,
+				ED0ED0DC16B11D9F00AF05F7 /* Sc01_bottom.png */,
+				ED0ED0DD16B11D9F00AF05F7 /* Sc01_head.png */,
+				ED0ED0DE16B11D9F00AF05F7 /* Sc01_kids.png */,
+			);
+			name = anim_sc01;
+			path = Resources/anim_sc01;
+			sourceTree = "<group>";
+		};
 		EDBF73CB16AFECEA00F99767 = {
 			isa = PBXGroup;
 			children = (
@@ -466,7 +499,7 @@
 				EDBF756216AFECED00F99767 /* AppDelegate.h */,
 				EDBF756316AFECED00F99767 /* AppDelegate.m */,
 				EDBF756516AFECED00F99767 /* HelloWorldLayer.h */,
-				EDBF756616AFECED00F99767 /* HelloWorldLayer.m */,
+				EDBF756616AFECED00F99767 /* HelloWorldLayer.mm */,
 				EDBF73ED16AFECEA00F99767 /* Resources */,
 				EDBF740516AFECEA00F99767 /* libs */,
 				EDBF755E16AFECED00F99767 /* Supporting Files */,
@@ -477,6 +510,9 @@
 		EDBF73ED16AFECEA00F99767 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				ED0ED0EC16B1271A00AF05F7 /* Sc01_Sheet.xml */,
+				ED0ED0D716B11D9F00AF05F7 /* anim_sc01 */,
+				ED0ED0DF16B11D9F00AF05F7 /* Sc01_Anim.xml */,
 				EDBF73EE16AFECEA00F99767 /* Default.png */,
 				EDBF73F016AFECEA00F99767 /* fps_images.png */,
 				EDBF73F216AFECEA00F99767 /* fps_images-hd.png */,
@@ -922,6 +958,15 @@
 				EDBF740116AFECEA00F99767 /* Icon@2x.png in Resources */,
 				EDBF740416AFECEA00F99767 /* iTunesArtwork in Resources */,
 				EDBF754216AFECED00F99767 /* ChangeLog in Resources */,
+				ED0ED0E116B11D9F00AF05F7 /* Sc01_arm1.png in Resources */,
+				ED0ED0E216B11D9F00AF05F7 /* Sc01_arm2.png in Resources */,
+				ED0ED0E316B11D9F00AF05F7 /* Sc01_body02.png in Resources */,
+				ED0ED0E416B11D9F00AF05F7 /* Sc01_body1.png in Resources */,
+				ED0ED0E516B11D9F00AF05F7 /* Sc01_bottom.png in Resources */,
+				ED0ED0E616B11D9F00AF05F7 /* Sc01_head.png in Resources */,
+				ED0ED0E716B11D9F00AF05F7 /* Sc01_kids.png in Resources */,
+				ED0ED0E816B11D9F00AF05F7 /* Sc01_Anim.xml in Resources */,
+				ED0ED0ED16B1271A00AF05F7 /* Sc01_Sheet.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1034,7 +1079,7 @@
 				EDBF755C16AFECED00F99767 /* vec4.c in Sources */,
 				EDBF756116AFECED00F99767 /* main.m in Sources */,
 				EDBF756416AFECED00F99767 /* AppDelegate.m in Sources */,
-				EDBF756716AFECED00F99767 /* HelloWorldLayer.m in Sources */,
+				EDBF756716AFECED00F99767 /* HelloWorldLayer.mm in Sources */,
 				EDBF757816B0068900F99767 /* F2EParser.cpp in Sources */,
 				EDBF757C16B0073500F99767 /* F2EAnimation.cpp in Sources */,
 			);
@@ -1093,6 +1138,7 @@
 				GCC_PREFIX_HEADER = FlashParserTest/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"FlashParserTest/libs/kazmath/include\"";
 				INFOPLIST_FILE = FlashParserTest/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-ObjC",
@@ -1111,6 +1157,7 @@
 				GCC_PREFIX_HEADER = FlashParserTest/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"FlashParserTest/libs/kazmath/include\"";
 				INFOPLIST_FILE = FlashParserTest/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-ObjC",
@@ -1140,6 +1187,7 @@
 				EDBF756C16AFECED00F99767 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

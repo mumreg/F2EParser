@@ -1,6 +1,6 @@
 //
 //  F2EAnimation.h
-//  FlashParserTest
+//  Flash2EngineParser
 //
 //  Created by Mikhail Perekhodtsev on 23.01.13.
 //
@@ -23,14 +23,14 @@ class F2EAnimation
 {
 public:
     F2EAnimation(const char *animationName);
+    vector<F2ESprite> sprites;
+    vector<F2EAnimationPart> animations;
     
 private:
     string getFileContent(const char *fileName);
     
     string name;
     F2EParser *parser;
-    vector<F2ESprite> sprites;
-    vector<F2EAnimationPart> animations;
 };
 
 #endif /* defined(__FlashParserTest__F2EAnimation__) */

@@ -1,0 +1,11 @@
+<Textures>
+  <TextureSheet name="anim_sc01">
+    <Texture name="Sc01_head" width="280" height="155" path="anim_sc01/Sc01_head.png" registrationPointX="2.00" registrationPointY="2.00" zIndex="7"/>
+    <Texture name="Sc01_arm1" width="161" height="119" path="anim_sc01/Sc01_arm1.png" registrationPointX="2.00" registrationPointY="2.00" zIndex="5"/>
+    <Texture name="Sc01_kids" width="979" height="487" path="anim_sc01/Sc01_kids.png" registrationPointX="490.00" registrationPointY="485.00" zIndex="4"/>
+    <Texture name="Sc01_body1" width="226" height="171" path="anim_sc01/Sc01_body1.png" registrationPointX="2.00" registrationPointY="2.00" zIndex="3"/>
+    <Texture name="Sc01_bottom" width="1083" height="274" path="anim_sc01/Sc01_bottom.png" registrationPointX="2.00" registrationPointY="2.00" zIndex="2"/>
+    <Texture name="Sc01_body02" width="252" height="220" path="anim_sc01/Sc01_body02.png" registrationPointX="2.00" registrationPointY="2.00" zIndex="1"/>
+    <Texture name="Sc01_arm2" width="149" height="152" path="anim_sc01/Sc01_arm2.png" registrationPointX="2.00" registrationPointY="2.00"/>
+  </TextureSheet>
+</Textures>
