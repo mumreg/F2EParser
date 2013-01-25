@@ -9,10 +9,10 @@
 
 // Import the interfaces
 #import "HelloWorldLayer.h"
-#import "F2EAnimation.h"
 
 // Needed to obtain the Navigation Controller
 #import "AppDelegate.h"
+#import "F2ECocos2D.hpp"
 
 #pragma mark - HelloWorldLayer
 
@@ -101,16 +101,8 @@
 		// Add the menu to the layer
 		[self addChild:menu];
         
-        NSBundle *b = [NSBundle mainBundle];
-        NSString *dir = [b resourcePath];
-        NSArray *parts = [NSArray arrayWithObjects:
-                          dir, @"Sc01", (void *)nil];
-        NSString *path = [NSString pathWithComponents:parts];
-        const char *cpath = [path fileSystemRepresentation];
-        F2EAnimation *animation = new F2EAnimation(cpath);
-        
-        NSLog(@"Loaded: %d sprites and %d animations", (int)animation->sprites.size(), (int)animation->animations.size());
-
+        F2ECocos2D *newAnimation = [[F2ECocos2D alloc] initWithAnimation:@"Sc01"];
+        [self addChild:newAnimation];
 	}
 	return self;
 }
