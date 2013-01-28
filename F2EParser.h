@@ -31,6 +31,8 @@ public:
 private:
     void saveAttrToSprite(string *attr_name, string *attr_value, F2ESprite *sprite);
     void saveAttrToFrame(string *attr_name, string *attr_value, F2EFrame *frame);
+    void resetSprite(F2ESprite *sprite);
+    void resetFrame(F2EFrame *frame);
     
     rapidxml::xml_document<> *doc;
 };

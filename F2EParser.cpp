@@ -41,6 +41,7 @@ int F2EParser::parseSprites(string *buffer, vector<F2ESprite> *sprites)
     for (; curr_node; curr_node = curr_node->next_sibling("Texture"))
     {
         F2ESprite sprite;
+        resetSprite(&sprite);
         
         for (rapidxml::xml_attribute<> *attr = curr_node->first_attribute();
              attr; attr = attr->next_attribute())
@@ -93,9 +94,10 @@ int F2EParser::parseAnimations(string *buffer, vector<F2EAnimationPart> *animati
             
             //Getting frames
             rapidxml::xml_node<> *frame_node = part_node->first_node("Frame");
-            for (; frame_node; frame_node = part_node->next_sibling("Frame"))
+            for (; frame_node; frame_node = frame_node->next_sibling("Frame"))
             {
                 F2EFrame frame;
+                resetFrame(&frame);
                 
                 for (attr = frame_node->first_attribute(); attr; attr = attr->next_attribute()) {
                     attr_name = new string(attr->name());
@@ -206,6 +208,25 @@ void F2EParser::saveAttrToSprite(string *attr_name, string *attr_value, F2ESprit
         sprite->zIndex = StringToNumber<int>(value);
         return;
     }
+}
+
+void F2EParser::resetFrame(F2EFrame *frame)
+{
+    frame->x = 0;
+    frame->y = 0;
+    frame->rotation = 0;
+    frame->scaleX = 0;
+    frame->scaleY = 0;
+    frame->index = 0;
+}
+
+void F2EParser::resetSprite(F2ESprite *sprite)
+{
+    sprite->zIndex = 0;
+    sprite->width = 0;
+    sprite->height = 0;
+    sprite->anchorPointX = 0;
+    sprite->anchorPointY = 0;
 }
 
 F2EParser::~F2EParser()

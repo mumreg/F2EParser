@@ -3,12 +3,14 @@
 //  FlashParserTest
 //
 //  Created by Mikhail Perekhodtsev on 25.01.13.
-//  Copyright 2013 __MyCompanyName__. All rights reserved.
+//  Copyright 2013 TheBestUp. All rights reserved.
 //
 
 #import "F2ECocos2D.hpp"
 
 @implementation F2ECocos2D
+
+@synthesize isAnimationPlaying;
 
 -(id)initWithAnimation:(NSString *)animationName
 {
@@ -18,6 +20,9 @@
         name = [NSString stringWithString:animationName];
         [self loadSprites];
         [self loadAnimations];
+        frameCount = 0;
+        isAnimationPlaying = NO;
+        currentAnimationPart = NULL;
     }
     return self;
 }
@@ -65,8 +70,6 @@
         
         NSString *frameName = [NSString stringWithFormat:@"%s.png", spriteInfo.name.c_str()];
         
-        NSLog(@"Loading frame %@", frameName);
-        
         CCSprite *sprite;
         if (sheetFlag)
             sprite = [CCSprite spriteWithSpriteFrameName:frameName];
@@ -76,6 +79,11 @@
         sprite.userData = malloc(sizeof(unsigned char)*spriteInfo.name.length());
         strcpy((char *)sprite.userData, spriteInfo.name.c_str());
 
+        CGPoint anchorPoint = ccp(spriteInfo.anchorPointX/spriteInfo.width, 1.0f - spriteInfo.anchorPointY/spriteInfo.height);
+        [sprite setAnchorPoint:anchorPoint];
+        
+        [sprite setZOrder:spriteInfo.zIndex];
+        
         [sprites addObject:sprite];
     }
 }
@@ -96,12 +104,9 @@
             if ([partName isEqualToString:spriteName])
             {
                 F2EFrame frame = part.frames[0];
-                [sprite setPosition:ccp(frame.x, frame.y)];
-                
-                //TODO: подумать как поступать если величина отсутствует
-                // в xml-файле
-                
-                NSLog(@"frameName: %@ pos: %f %f", partName, frame.x, frame.y);
+                CGPoint position = ccp(frame.x, -1.0f*frame.y);
+                [sprite setRotation:frame.rotation];
+                [sprite setPosition:position];
                 
                 [self addChild:sprite];
             }
@@ -109,13 +114,71 @@
     }
 }
 
--(void)playAnimation:(NSString *)animationName loop:(BOOL)loop
+//time - time per one full animation cycle
+-(void)playAnimation:(NSString *)animationName loop:(BOOL)loop time:(float)time
+{
+    for (std::vector<F2EAnimationPart>::iterator it = animation->animations.begin(); it != animation->animations.end(); it++) {
+        if ([animationName isEqualToString:[NSString stringWithFormat:@"%s", it->animationName.c_str()]])
+        {
+            [self playAnimationPart:&(*it) loop:loop time:time];
+        }
+    }
+}
+
+-(void)playAnimationPart:(F2EAnimationPart *)part loop:(BOOL)loop time:(float)time
+{
+    isAnimationPlaying = YES;
+    
+    currentAnimationPart = part;
+    frameCount = 0;
+    float dt = time/part->frameCount;
+    [self schedule:@selector(animateFrame) interval:dt];
+}
+
+//time - time of full animation cycle
+-(void)playFullAnimationAndLoop:(BOOL)loop time:(float)time
 {
     
 }
 
+-(void)animateFrame
+{
+    if (frameCount < currentAnimationPart->frameCount)
+    {
+        std::vector<F2EPart>::iterator it = currentAnimationPart->parts.begin();
+        
+        for (; it != currentAnimationPart->parts.end(); it++) {
+            for (CCSprite *sprite in sprites) {
+                
+                NSString *partName = [NSString stringWithFormat:@"%s.png", it->partName.c_str()];
+                NSString *spriteName = [NSString stringWithFormat:@"%s.png", (char *) sprite.userData];
+                
+                if ([partName isEqualToString:spriteName])
+                {
+                    if (frameCount < it->frames.size())
+                    {
+                        F2EFrame *frame = &(it->frames[frameCount]);
+                        
+                        CGPoint position = ccp(frame->x, -1.0f*frame->y);
+                        [sprite setRotation:frame->rotation];
+                        [sprite setPosition:position];
+                    }
+                }
+            }
+        }
+        
+        frameCount++;
+    }
+    else
+    {
+        [self unschedule:@selector(animateFrame)];
+        isAnimationPlaying = NO;
+    }
+}
+
 -(void)dealloc
 {
+    //TODO: добавить удаление строк из sprites.sprite.userData
     delete animation;
     [sprites release];
     [super dealloc];

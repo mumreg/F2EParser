@@ -12,7 +12,6 @@
 
 // Needed to obtain the Navigation Controller
 #import "AppDelegate.h"
-#import "F2ECocos2D.hpp"
 
 #pragma mark - HelloWorldLayer
 
@@ -52,7 +51,7 @@
 		label.position =  ccp( size.width /2 , size.height/2 );
 		
 		// add the label as a child to this Layer
-		[self addChild: label];
+//		[self addChild: label];
 		
 		
 		
@@ -99,12 +98,35 @@
 		[menu setPosition:ccp( size.width/2, size.height/2 - 50)];
 		
 		// Add the menu to the layer
-		[self addChild:menu];
+//		[self addChild:menu];
         
-        F2ECocos2D *newAnimation = [[F2ECocos2D alloc] initWithAnimation:@"Sc01"];
+        newAnimation = [[F2ECocos2D alloc] initWithAnimation:@"Sc01"];
+        [newAnimation setPosition:ccp(0, 0)];
         [self addChild:newAnimation];
+        
+        self.isTouchEnabled = YES;
 	}
 	return self;
+}
+
+-(BOOL)ccTouchBegan:(UITouch *)touch withEvent:(UIEvent *)event
+{
+    static int count = 0;
+    
+    NSArray *anims = [[NSArray alloc] initWithObjects:@"move1", @"move2", nil];
+    float times[] = {0.375f, 0.416f};
+    
+    if (!newAnimation.isAnimationPlaying)
+    {
+        [newAnimation playAnimation:[anims objectAtIndex:(count % [anims count])] loop:NO time:times[(count % 2)]];
+        count++;
+    }
+    return NO;
+}
+
+-(void) registerWithTouchDispatcher
+{
+	[[CCDirector sharedDirector].touchDispatcher addTargetedDelegate:self priority:0 swallowsTouches:NO];
 }
 
 // on "dealloc" you need to release all your retained objects

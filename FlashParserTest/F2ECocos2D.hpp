@@ -13,10 +13,15 @@
 @interface F2ECocos2D : CCNode {
     F2EAnimation *animation;
     
+    F2EAnimationPart *currentAnimationPart;
+    unsigned int frameCount;
+    
     NSString *name;
     
     NSMutableArray *sprites;
     NSMutableArray *animations;
+    
+    BOOL isAnimationPlaying;
 }
 
 -(id)initWithAnimation:(NSString *)animationName;
@@ -26,6 +31,11 @@
 -(void)loadSprites;
 -(void)loadAnimations;
 
--(void)playAnimation:(NSString *)animationName loop:(BOOL)loop;
+-(void)playFullAnimationAndLoop:(BOOL)loop time:(float)time;
+-(void)playAnimation:(NSString *)animationName loop:(BOOL)loop time:(float)time;
+-(void)playAnimationPart:(F2EAnimationPart *)part loop:(BOOL)loop time:(float)time;
+-(void)animateFrame;
+
+@property (nonatomic) BOOL isAnimationPlaying;
 
 @end

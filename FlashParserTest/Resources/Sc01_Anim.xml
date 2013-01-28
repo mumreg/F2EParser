@@ -6,14 +6,17 @@
     <Part name="Sc01_arm2">
       <Frame x="628.40" y="-558.95" scaleX="0.999" scaleY="0.999" rotation="14.822" index="0"/>
     </Part>
-    <Part name="Sc01_body02">
-      <Frame x="643.60" y="-549.70" rotation="-0.770" index="0"/>
+    <Part name="Sc01_arm3">
+      <Frame x="739.60" y="-424.75" scaleX="0.999" scaleY="0.999" rotation="-12.261" index="0"/>
     </Part>
     <Part name="Sc01_body1">
       <Frame x="620.75" y="-414.60" rotation="0.795" index="0"/>
     </Part>
+    <Part name="Sc01_body2">
+      <Frame x="643.60" y="-549.70" rotation="-0.770" index="0"/>
+    </Part>
     <Part name="Sc01_bottom">
-      <Frame y="-270.00" index="0"/>
+      <Frame x="0.00" y="-270.00" index="0"/>
     </Part>
     <Part name="Sc01_head">
       <Frame x="692.15" y="-650.00" rotation="5.056" index="0"/>
@@ -45,16 +48,16 @@
       <Frame x="620.75" y="-536.00" rotation="3.252" index="7"/>
       <Frame x="620.05" y="-532.35" rotation="1.528" index="8"/>
     </Part>
-    <Part name="Sc01_body02">
-      <Frame x="643.60" y="-549.60" rotation="-0.770" index="0"/>
-      <Frame x="643.70" y="-548.55" rotation="-0.755" index="1"/>
-      <Frame x="643.70" y="-547.55" rotation="-0.755" index="2"/>
-      <Frame x="643.70" y="-546.55" rotation="-0.755" index="3"/>
-      <Frame x="643.70" y="-545.55" rotation="-0.755" index="4"/>
-      <Frame x="643.70" y="-544.55" rotation="-0.755" index="5"/>
-      <Frame x="643.70" y="-543.55" rotation="-0.755" index="6"/>
-      <Frame x="643.70" y="-542.55" rotation="-0.755" index="7"/>
-      <Frame x="643.70" y="-541.55" rotation="-0.755" index="8"/>
+    <Part name="Sc01_arm3">
+      <Frame x="739.60" y="-424.75" scaleX="0.999" scaleY="0.999" rotation="-12.261" index="0"/>
+      <Frame x="742.30" y="-422.90" scaleX="0.999" scaleY="0.999" rotation="-11.552" index="1"/>
+      <Frame x="744.75" y="-420.90" scaleX="0.999" scaleY="0.999" rotation="-11.032" index="2"/>
+      <Frame x="747.30" y="-418.95" scaleX="0.999" scaleY="0.999" rotation="-10.511" index="3"/>
+      <Frame x="749.90" y="-417.15" scaleX="0.999" scaleY="0.999" rotation="-9.801" index="4"/>
+      <Frame x="752.40" y="-415.15" scaleX="0.999" scaleY="0.999" rotation="-9.279" index="5"/>
+      <Frame x="755.05" y="-413.15" scaleX="0.999" scaleY="0.999" rotation="-8.758" index="6"/>
+      <Frame x="757.70" y="-411.30" scaleX="0.999" scaleY="0.999" rotation="-8.050" index="7"/>
+      <Frame x="760.15" y="-409.35" scaleX="0.999" scaleY="0.999" rotation="-7.529" index="8"/>
     </Part>
     <Part name="Sc01_body1">
       <Frame x="620.65" y="-414.70" rotation="0.795" index="0"/>
@@ -66,6 +69,17 @@
       <Frame x="619.00" y="-409.60" rotation="-0.755" index="6"/>
       <Frame x="618.70" y="-408.80" rotation="-1.009" index="7"/>
       <Frame x="618.45" y="-407.95" rotation="-1.262" index="8"/>
+    </Part>
+    <Part name="Sc01_body2">
+      <Frame x="643.60" y="-549.60" rotation="-0.770" index="0"/>
+      <Frame x="643.70" y="-548.55" rotation="-0.755" index="1"/>
+      <Frame x="643.70" y="-547.55" rotation="-0.755" index="2"/>
+      <Frame x="643.70" y="-546.55" rotation="-0.755" index="3"/>
+      <Frame x="643.70" y="-545.55" rotation="-0.755" index="4"/>
+      <Frame x="643.70" y="-544.55" rotation="-0.755" index="5"/>
+      <Frame x="643.70" y="-543.55" rotation="-0.755" index="6"/>
+      <Frame x="643.70" y="-542.55" rotation="-0.755" index="7"/>
+      <Frame x="643.70" y="-541.55" rotation="-0.755" index="8"/>
     </Part>
     <Part name="Sc01_bottom">
       <Frame y="-270.00" index="0"/>
@@ -126,17 +140,17 @@
       <Frame x="626.05" y="-553.05" scaleX="0.999" scaleY="0.999" rotation="11.783" index="8"/>
       <Frame x="627.25" y="-555.90" scaleX="0.999" scaleY="0.999" rotation="13.282" index="9"/>
     </Part>
-    <Part name="Sc01_body02">
-      <Frame x="643.50" y="-540.70" rotation="-0.770" index="0"/>
-      <Frame x="643.55" y="-541.60" rotation="-0.755" index="1"/>
-      <Frame x="643.55" y="-542.50" rotation="-0.755" index="2"/>
-      <Frame x="643.55" y="-543.40" rotation="-0.755" index="3"/>
-      <Frame x="643.55" y="-544.30" rotation="-0.755" index="4"/>
-      <Frame x="643.55" y="-545.20" rotation="-0.755" index="5"/>
-      <Frame x="643.55" y="-546.10" rotation="-0.755" index="6"/>
-      <Frame x="643.55" y="-547.00" rotation="-0.755" index="7"/>
-      <Frame x="643.55" y="-547.90" rotation="-0.755" index="8"/>
-      <Frame x="643.55" y="-548.80" rotation="-0.755" index="9"/>
+    <Part name="Sc01_arm3">
+      <Frame x="762.75" y="-407.40" rotation="-7.018" index="0"/>
+      <Frame x="760.40" y="-409.15" scaleX="0.999" scaleY="0.999" rotation="-7.514" index="1"/>
+      <Frame x="758.15" y="-410.95" scaleX="0.999" scaleY="0.999" rotation="-8.022" index="2"/>
+      <Frame x="755.85" y="-412.70" scaleX="0.999" scaleY="0.999" rotation="-8.527" index="3"/>
+      <Frame x="753.55" y="-414.40" scaleX="0.999" scaleY="0.999" rotation="-9.034" index="4"/>
+      <Frame x="751.20" y="-416.15" scaleX="0.999" scaleY="0.999" rotation="-9.540" index="5"/>
+      <Frame x="748.90" y="-417.90" scaleX="0.999" scaleY="0.999" rotation="-10.047" index="6"/>
+      <Frame x="746.55" y="-419.70" scaleX="0.999" scaleY="0.999" rotation="-10.554" index="7"/>
+      <Frame x="744.30" y="-421.50" scaleX="0.999" scaleY="0.999" rotation="-11.061" index="8"/>
+      <Frame x="741.95" y="-423.20" scaleX="0.999" scaleY="0.999" rotation="-11.567" index="9"/>
     </Part>
     <Part name="Sc01_body1">
       <Frame x="618.25" y="-406.85" rotation="-1.555" index="0"/>
@@ -149,6 +163,18 @@
       <Frame x="619.90" y="-412.10" rotation="0.023" index="7"/>
       <Frame x="620.20" y="-412.90" rotation="0.268" index="8"/>
       <Frame x="620.50" y="-413.60" rotation="0.515" index="9"/>
+    </Part>
+    <Part name="Sc01_body2">
+      <Frame x="643.50" y="-540.70" rotation="-0.770" index="0"/>
+      <Frame x="643.55" y="-541.60" rotation="-0.755" index="1"/>
+      <Frame x="643.55" y="-542.50" rotation="-0.755" index="2"/>
+      <Frame x="643.55" y="-543.40" rotation="-0.755" index="3"/>
+      <Frame x="643.55" y="-544.30" rotation="-0.755" index="4"/>
+      <Frame x="643.55" y="-545.20" rotation="-0.755" index="5"/>
+      <Frame x="643.55" y="-546.10" rotation="-0.755" index="6"/>
+      <Frame x="643.55" y="-547.00" rotation="-0.755" index="7"/>
+      <Frame x="643.55" y="-547.90" rotation="-0.755" index="8"/>
+      <Frame x="643.55" y="-548.80" rotation="-0.755" index="9"/>
     </Part>
     <Part name="Sc01_bottom">
       <Frame y="-270.00" index="0"/>
@@ -189,45 +215,51 @@
   </Animation>
   <Animation name="static" frameCount="4">
     <Part name="Sc01_arm1">
-      <Frame x="728.10" y="-499.40" scaleX="0.999" scaleY="1.011" rotation="-12.318" index="0"/>
-      <Frame x="728.20" y="-499.50" scaleX="0.999" scaleY="1.010" rotation="-12.276" index="1"/>
-      <Frame x="728.20" y="-499.50" scaleX="0.999" scaleY="1.010" rotation="-12.276" index="2"/>
+      <Frame x="728.10" y="-499.50" scaleX="0.999" scaleY="1.011" rotation="-12.318" index="0"/>
+      <Frame x="728.20" y="-499.55" scaleX="0.999" scaleY="1.010" rotation="-12.276" index="1"/>
+      <Frame x="728.20" y="-499.55" scaleX="0.999" scaleY="1.010" rotation="-12.276" index="2"/>
       <Frame x="728.20" y="-499.50" scaleX="0.999" scaleY="1.010" rotation="-12.276" index="3"/>
     </Part>
     <Part name="Sc01_arm2">
-      <Frame x="628.40" y="-558.95" scaleX="0.999" scaleY="0.999" rotation="14.822" index="0"/>
-      <Frame x="628.45" y="-558.85" scaleX="0.998" scaleY="0.998" rotation="14.781" index="1"/>
-      <Frame x="628.45" y="-558.85" scaleX="0.998" scaleY="0.998" rotation="14.781" index="2"/>
-      <Frame x="628.45" y="-558.85" scaleX="0.998" scaleY="0.998" rotation="14.781" index="3"/>
+      <Frame x="628.40" y="-559.05" scaleX="0.999" scaleY="0.999" rotation="14.822" index="0"/>
+      <Frame x="628.50" y="-558.90" scaleX="0.998" scaleY="0.998" rotation="14.781" index="1"/>
+      <Frame x="628.50" y="-558.90" scaleX="0.998" scaleY="0.998" rotation="14.781" index="2"/>
+      <Frame x="628.50" y="-558.85" scaleX="0.998" scaleY="0.998" rotation="14.781" index="3"/>
     </Part>
-    <Part name="Sc01_body02">
-      <Frame x="643.60" y="-549.70" rotation="-0.770" index="0"/>
-      <Frame x="643.70" y="-549.65" rotation="-0.755" index="1"/>
-      <Frame x="643.70" y="-549.65" rotation="-0.755" index="2"/>
-      <Frame x="643.70" y="-549.65" rotation="-0.755" index="3"/>
+    <Part name="Sc01_arm3">
+      <Frame x="739.60" y="-424.85" scaleX="0.999" scaleY="0.999" rotation="-12.261" index="0"/>
+      <Frame x="739.65" y="-424.75" scaleX="0.999" scaleY="0.999" rotation="-12.262" index="1"/>
+      <Frame x="739.65" y="-424.75" scaleX="0.999" scaleY="0.999" rotation="-12.262" index="2"/>
+      <Frame x="739.65" y="-424.70" scaleX="0.999" scaleY="0.999" rotation="-12.262" index="3"/>
     </Part>
     <Part name="Sc01_body1">
-      <Frame x="620.75" y="-414.60" rotation="0.795" index="0"/>
-      <Frame x="620.70" y="-414.55" rotation="0.762" index="1"/>
-      <Frame x="620.70" y="-414.55" rotation="0.762" index="2"/>
+      <Frame x="620.75" y="-414.70" rotation="0.795" index="0"/>
+      <Frame x="620.70" y="-414.60" rotation="0.762" index="1"/>
+      <Frame x="620.70" y="-414.60" rotation="0.762" index="2"/>
       <Frame x="620.70" y="-414.55" rotation="0.762" index="3"/>
     </Part>
+    <Part name="Sc01_body2">
+      <Frame x="643.60" y="-549.80" rotation="-0.770" index="0"/>
+      <Frame x="643.70" y="-549.70" rotation="-0.755" index="1"/>
+      <Frame x="643.70" y="-549.70" rotation="-0.755" index="2"/>
+      <Frame x="643.70" y="-549.65" rotation="-0.755" index="3"/>
+    </Part>
     <Part name="Sc01_bottom">
-      <Frame y="-270.00" index="0"/>
-      <Frame y="-270.00" index="1"/>
-      <Frame y="-270.00" index="2"/>
+      <Frame y="-270.10" index="0"/>
+      <Frame y="-270.05" index="1"/>
+      <Frame y="-270.05" index="2"/>
       <Frame y="-270.00" index="3"/>
     </Part>
     <Part name="Sc01_head">
-      <Frame x="692.20" y="-649.90" rotation="5.056" index="0"/>
-      <Frame x="692.10" y="-649.80" scaleX="0.999" scaleY="0.999" rotation="5.015" index="1"/>
-      <Frame x="692.10" y="-649.80" scaleX="0.999" scaleY="0.999" rotation="5.015" index="2"/>
+      <Frame x="692.20" y="-650.00" rotation="5.056" index="0"/>
+      <Frame x="692.10" y="-649.85" scaleX="0.999" scaleY="0.999" rotation="5.015" index="1"/>
+      <Frame x="692.10" y="-649.85" scaleX="0.999" scaleY="0.999" rotation="5.015" index="2"/>
       <Frame x="692.10" y="-649.80" scaleX="0.999" scaleY="0.999" rotation="5.015" index="3"/>
     </Part>
     <Part name="Sc01_kids">
-      <Frame x="500.05" y="-27.25" index="0"/>
-      <Frame x="500.05" y="-27.25" index="1"/>
-      <Frame x="500.05" y="-27.25" index="2"/>
+      <Frame x="500.05" y="-27.35" index="0"/>
+      <Frame x="500.05" y="-27.30" index="1"/>
+      <Frame x="500.05" y="-27.30" index="2"/>
       <Frame x="500.05" y="-27.25" index="3"/>
     </Part>
   </Animation>
