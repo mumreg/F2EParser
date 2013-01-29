@@ -111,15 +111,9 @@
 
 -(BOOL)ccTouchBegan:(UITouch *)touch withEvent:(UIEvent *)event
 {
-    static int count = 0;
-    
-    NSArray *anims = [[NSArray alloc] initWithObjects:@"move1", @"move2", nil];
-    float times[] = {0.375f, 0.416f};
-    
     if (!newAnimation.isAnimationPlaying)
     {
-        [newAnimation playAnimation:[anims objectAtIndex:(count % [anims count])] loop:NO time:times[(count % 2)]];
-        count++;
+        [newAnimation playFullAnimationAndLoop:NO time:1.0f];
     }
     return NO;
 }

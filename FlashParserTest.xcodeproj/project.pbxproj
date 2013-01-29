@@ -15,9 +15,13 @@
 		ED0ED0E716B11D9F00AF05F7 /* Sc01_kids.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0ED0DE16B11D9F00AF05F7 /* Sc01_kids.png */; };
 		ED0ED0E816B11D9F00AF05F7 /* Sc01_Anim.xml in Resources */ = {isa = PBXBuildFile; fileRef = ED0ED0DF16B11D9F00AF05F7 /* Sc01_Anim.xml */; };
 		ED0ED0ED16B1271A00AF05F7 /* Sc01_Sheet.xml in Resources */ = {isa = PBXBuildFile; fileRef = ED0ED0EC16B1271A00AF05F7 /* Sc01_Sheet.xml */; };
+		ED406F7816B7F40300D16081 /* AnimationObj.mm in Sources */ = {isa = PBXBuildFile; fileRef = ED406F6916B7F40300D16081 /* AnimationObj.mm */; };
+		ED406F7916B7F40300D16081 /* F2ECocos2D.mm in Sources */ = {isa = PBXBuildFile; fileRef = ED406F6B16B7F40300D16081 /* F2ECocos2D.mm */; };
+		ED406F7A16B7F40300D16081 /* NSMutableArray+QueueAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ED406F6D16B7F40300D16081 /* NSMutableArray+QueueAdditions.m */; };
+		ED406F7B16B7F40300D16081 /* F2EAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED406F6E16B7F40300D16081 /* F2EAnimation.cpp */; };
+		ED406F7C16B7F40300D16081 /* F2EParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED406F7016B7F40300D16081 /* F2EParser.cpp */; };
 		ED6CE32F16B67FA200C6B9C1 /* Sc01_body2.png in Resources */ = {isa = PBXBuildFile; fileRef = ED6CE32E16B67FA200C6B9C1 /* Sc01_body2.png */; };
 		ED6CE33116B680B400C6B9C1 /* Sc01_arm3.png in Resources */ = {isa = PBXBuildFile; fileRef = ED6CE33016B680B400C6B9C1 /* Sc01_arm3.png */; };
-		ED93C97F16B26C99002D0438 /* F2ECocos2D.mm in Sources */ = {isa = PBXBuildFile; fileRef = ED93C97E16B26C99002D0438 /* F2ECocos2D.mm */; };
 		ED93C98516B2B336002D0438 /* HelloWorldLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = ED93C98416B2B336002D0438 /* HelloWorldLayer.mm */; };
 		EDBF73DB16AFECEA00F99767 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBF73DA16AFECEA00F99767 /* QuartzCore.framework */; };
 		EDBF73DD16AFECEA00F99767 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBF73DC16AFECEA00F99767 /* OpenGLES.framework */; };
@@ -142,8 +146,6 @@
 		EDBF755C16AFECED00F99767 /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = EDBF755B16AFECED00F99767 /* vec4.c */; };
 		EDBF756116AFECED00F99767 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBF756016AFECED00F99767 /* main.m */; };
 		EDBF756416AFECED00F99767 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = EDBF756316AFECED00F99767 /* AppDelegate.mm */; };
-		EDBF757816B0068900F99767 /* F2EParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDBF757616B0068900F99767 /* F2EParser.cpp */; };
-		EDBF757C16B0073500F99767 /* F2EAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDBF757A16B0073500F99767 /* F2EAnimation.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -155,10 +157,23 @@
 		ED0ED0DE16B11D9F00AF05F7 /* Sc01_kids.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sc01_kids.png; sourceTree = "<group>"; };
 		ED0ED0DF16B11D9F00AF05F7 /* Sc01_Anim.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Sc01_Anim.xml; path = Resources/Sc01_Anim.xml; sourceTree = "<group>"; };
 		ED0ED0EC16B1271A00AF05F7 /* Sc01_Sheet.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Sc01_Sheet.xml; path = Resources/Sc01_Sheet.xml; sourceTree = "<group>"; };
+		ED406F6816B7F40300D16081 /* AnimationObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationObj.h; sourceTree = "<group>"; };
+		ED406F6916B7F40300D16081 /* AnimationObj.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AnimationObj.mm; sourceTree = "<group>"; };
+		ED406F6A16B7F40300D16081 /* F2ECocos2D.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = F2ECocos2D.hpp; sourceTree = "<group>"; };
+		ED406F6B16B7F40300D16081 /* F2ECocos2D.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = F2ECocos2D.mm; sourceTree = "<group>"; };
+		ED406F6C16B7F40300D16081 /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
+		ED406F6D16B7F40300D16081 /* NSMutableArray+QueueAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+QueueAdditions.m"; sourceTree = "<group>"; };
+		ED406F6E16B7F40300D16081 /* F2EAnimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = F2EAnimation.cpp; sourceTree = "<group>"; };
+		ED406F6F16B7F40300D16081 /* F2EAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F2EAnimation.h; sourceTree = "<group>"; };
+		ED406F7016B7F40300D16081 /* F2EParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = F2EParser.cpp; sourceTree = "<group>"; };
+		ED406F7116B7F40300D16081 /* F2EParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F2EParser.h; sourceTree = "<group>"; };
+		ED406F7216B7F40300D16081 /* F2EUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F2EUtils.h; sourceTree = "<group>"; };
+		ED406F7416B7F40300D16081 /* rapidxml.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml.hpp; sourceTree = "<group>"; };
+		ED406F7516B7F40300D16081 /* rapidxml_iterators.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_iterators.hpp; sourceTree = "<group>"; };
+		ED406F7616B7F40300D16081 /* rapidxml_print.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_print.hpp; sourceTree = "<group>"; };
+		ED406F7716B7F40300D16081 /* rapidxml_utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_utils.hpp; sourceTree = "<group>"; };
 		ED6CE32E16B67FA200C6B9C1 /* Sc01_body2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sc01_body2.png; sourceTree = "<group>"; };
 		ED6CE33016B680B400C6B9C1 /* Sc01_arm3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sc01_arm3.png; sourceTree = "<group>"; };
-		ED93C97D16B26C99002D0438 /* F2ECocos2D.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = F2ECocos2D.hpp; sourceTree = "<group>"; };
-		ED93C97E16B26C99002D0438 /* F2ECocos2D.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = F2ECocos2D.mm; sourceTree = "<group>"; };
 		ED93C98416B2B336002D0438 /* HelloWorldLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HelloWorldLayer.mm; sourceTree = "<group>"; };
 		EDBF73D616AFECEA00F99767 /* FlashParserTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashParserTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDBF73DA16AFECEA00F99767 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -418,15 +433,6 @@
 		EDBF756216AFECED00F99767 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EDBF756316AFECED00F99767 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		EDBF756516AFECED00F99767 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		EDBF757016AFED1300F99767 /* rapidxml.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml.hpp; sourceTree = "<group>"; };
-		EDBF757116AFED1300F99767 /* rapidxml_iterators.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_iterators.hpp; sourceTree = "<group>"; };
-		EDBF757216AFED1300F99767 /* rapidxml_print.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_print.hpp; sourceTree = "<group>"; };
-		EDBF757316AFED1300F99767 /* rapidxml_utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_utils.hpp; sourceTree = "<group>"; };
-		EDBF757616B0068900F99767 /* F2EParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = F2EParser.cpp; path = ../F2EParser.cpp; sourceTree = "<group>"; };
-		EDBF757716B0068900F99767 /* F2EParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F2EParser.h; path = ../F2EParser.h; sourceTree = "<group>"; };
-		EDBF757A16B0073500F99767 /* F2EAnimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = F2EAnimation.cpp; sourceTree = "<group>"; };
-		EDBF757B16B0073500F99767 /* F2EAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F2EAnimation.h; sourceTree = "<group>"; };
-		EDBF757D16B0153700F99767 /* F2EUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = F2EUtils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -465,13 +471,50 @@
 			path = Resources/anim_sc01;
 			sourceTree = "<group>";
 		};
-		ED93C97C16B26C6D002D0438 /* Engines */ = {
+		ED406F6516B7F40300D16081 /* F2EParser */ = {
 			isa = PBXGroup;
 			children = (
-				ED93C97D16B26C99002D0438 /* F2ECocos2D.hpp */,
-				ED93C97E16B26C99002D0438 /* F2ECocos2D.mm */,
+				ED406F6616B7F40300D16081 /* engines */,
+				ED406F6E16B7F40300D16081 /* F2EAnimation.cpp */,
+				ED406F6F16B7F40300D16081 /* F2EAnimation.h */,
+				ED406F7016B7F40300D16081 /* F2EParser.cpp */,
+				ED406F7116B7F40300D16081 /* F2EParser.h */,
+				ED406F7216B7F40300D16081 /* F2EUtils.h */,
+				ED406F7316B7F40300D16081 /* rapidxml-1.13 */,
 			);
-			name = Engines;
+			path = F2EParser;
+			sourceTree = "<group>";
+		};
+		ED406F6616B7F40300D16081 /* engines */ = {
+			isa = PBXGroup;
+			children = (
+				ED406F6716B7F40300D16081 /* cocos2d */,
+			);
+			path = engines;
+			sourceTree = "<group>";
+		};
+		ED406F6716B7F40300D16081 /* cocos2d */ = {
+			isa = PBXGroup;
+			children = (
+				ED406F6816B7F40300D16081 /* AnimationObj.h */,
+				ED406F6916B7F40300D16081 /* AnimationObj.mm */,
+				ED406F6A16B7F40300D16081 /* F2ECocos2D.hpp */,
+				ED406F6B16B7F40300D16081 /* F2ECocos2D.mm */,
+				ED406F6C16B7F40300D16081 /* NSMutableArray+QueueAdditions.h */,
+				ED406F6D16B7F40300D16081 /* NSMutableArray+QueueAdditions.m */,
+			);
+			path = cocos2d;
+			sourceTree = "<group>";
+		};
+		ED406F7316B7F40300D16081 /* rapidxml-1.13 */ = {
+			isa = PBXGroup;
+			children = (
+				ED406F7416B7F40300D16081 /* rapidxml.hpp */,
+				ED406F7516B7F40300D16081 /* rapidxml_iterators.hpp */,
+				ED406F7616B7F40300D16081 /* rapidxml_print.hpp */,
+				ED406F7716B7F40300D16081 /* rapidxml_utils.hpp */,
+			);
+			path = "rapidxml-1.13";
 			sourceTree = "<group>";
 		};
 		EDBF73CB16AFECEA00F99767 = {
@@ -510,7 +553,6 @@
 		EDBF73EC16AFECEA00F99767 /* FlashParserTest */ = {
 			isa = PBXGroup;
 			children = (
-				EDBF757916B006DD00F99767 /* F2E */,
 				EDBF756216AFECED00F99767 /* AppDelegate.h */,
 				EDBF756316AFECED00F99767 /* AppDelegate.mm */,
 				ED93C98416B2B336002D0438 /* HelloWorldLayer.mm */,
@@ -547,7 +589,7 @@
 		EDBF740516AFECEA00F99767 /* libs */ = {
 			isa = PBXGroup;
 			children = (
-				EDBF756D16AFED1300F99767 /* rapidxml-1.13 */,
+				ED406F6516B7F40300D16081 /* F2EParser */,
 				EDBF751C16AFECED00F99767 /* LICENSE_cocos2d.txt */,
 				EDBF752B16AFECED00F99767 /* LICENSE_CocosDenshion.txt */,
 				EDBF755D16AFECED00F99767 /* LICENSE_Kazmath.txt */,
@@ -888,30 +930,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EDBF756D16AFED1300F99767 /* rapidxml-1.13 */ = {
-			isa = PBXGroup;
-			children = (
-				EDBF757016AFED1300F99767 /* rapidxml.hpp */,
-				EDBF757116AFED1300F99767 /* rapidxml_iterators.hpp */,
-				EDBF757216AFED1300F99767 /* rapidxml_print.hpp */,
-				EDBF757316AFED1300F99767 /* rapidxml_utils.hpp */,
-			);
-			path = "rapidxml-1.13";
-			sourceTree = "<group>";
-		};
-		EDBF757916B006DD00F99767 /* F2E */ = {
-			isa = PBXGroup;
-			children = (
-				ED93C97C16B26C6D002D0438 /* Engines */,
-				EDBF757616B0068900F99767 /* F2EParser.cpp */,
-				EDBF757716B0068900F99767 /* F2EParser.h */,
-				EDBF757A16B0073500F99767 /* F2EAnimation.cpp */,
-				EDBF757B16B0073500F99767 /* F2EAnimation.h */,
-				EDBF757D16B0153700F99767 /* F2EUtils.h */,
-			);
-			name = F2E;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1096,10 +1114,12 @@
 				EDBF755C16AFECED00F99767 /* vec4.c in Sources */,
 				EDBF756116AFECED00F99767 /* main.m in Sources */,
 				EDBF756416AFECED00F99767 /* AppDelegate.mm in Sources */,
-				EDBF757816B0068900F99767 /* F2EParser.cpp in Sources */,
-				EDBF757C16B0073500F99767 /* F2EAnimation.cpp in Sources */,
-				ED93C97F16B26C99002D0438 /* F2ECocos2D.mm in Sources */,
 				ED93C98516B2B336002D0438 /* HelloWorldLayer.mm in Sources */,
+				ED406F7816B7F40300D16081 /* AnimationObj.mm in Sources */,
+				ED406F7916B7F40300D16081 /* F2ECocos2D.mm in Sources */,
+				ED406F7A16B7F40300D16081 /* NSMutableArray+QueueAdditions.m in Sources */,
+				ED406F7B16B7F40300D16081 /* F2EAnimation.cpp in Sources */,
+				ED406F7C16B7F40300D16081 /* F2EParser.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

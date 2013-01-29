@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
 #import "F2EAnimation.h"
+#import "NSMutableArray+QueueAdditions.h"
+#import "AnimationObj.h"
 
 @interface F2ECocos2D : CCNode {
     F2EAnimation *animation;
@@ -20,6 +22,8 @@
     
     NSMutableArray *sprites;
     NSMutableArray *animations;
+    
+    NSMutableArray *animationQueue;
     
     BOOL isAnimationPlaying;
 }

@@ -71,6 +71,8 @@ int F2EParser::parseAnimations(string *buffer, vector<F2EAnimationPart> *animati
     string *attr_name;
     string *attr_value;
     
+    int framesCount = 0;
+    
     for (; curr_node; curr_node = curr_node->next_sibling("Animation"))
     {
         F2EAnimationPart animationPart;
@@ -83,6 +85,7 @@ int F2EParser::parseAnimations(string *buffer, vector<F2EAnimationPart> *animati
         //frameCount
         attr = attr->next_attribute();
         animationPart.frameCount = StringToNumber<int>(string(attr->value()));
+        framesCount += animationPart.frameCount;
         
         //Getting parts
         rapidxml::xml_node<> *part_node = curr_node->first_node("Part");
@@ -117,7 +120,7 @@ int F2EParser::parseAnimations(string *buffer, vector<F2EAnimationPart> *animati
         
         animations->push_back(animationPart);
     }
-    return 0;
+    return framesCount;
 }
 
 void F2EParser::saveAttrToFrame(string *attr_name, string *attr_value, F2EFrame *frame)

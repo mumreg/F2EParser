@@ -25,6 +25,7 @@ public:
     F2EAnimation(const char *animationName);
     vector<F2ESprite> sprites;
     vector<F2EAnimationPart> animations;
+    int framesCount;
     
 private:
     string getFileContent(const char *fileName);

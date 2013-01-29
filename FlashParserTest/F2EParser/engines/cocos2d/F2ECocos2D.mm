@@ -17,12 +17,19 @@
     if (self = [super init])
     {
         [self loadAnimationInfo:animationName];
+        
         name = [NSString stringWithString:animationName];
+        
         [self loadSprites];
         [self loadAnimations];
+        
+        animationQueue = [[NSMutableArray alloc] init];
+        
         frameCount = 0;
         isAnimationPlaying = NO;
         currentAnimationPart = NULL;
+        
+        [self scheduleUpdate];
     }
     return self;
 }
@@ -39,6 +46,7 @@
     animation = new F2EAnimation(cpath);
     
     NSLog(@"Loaded: %d sprites and %d animations", (int)animation->sprites.size(), (int)animation->animations.size());
+    NSLog(@"Frames: %d", animation->framesCount);
 }
 
 -(void)loadSprites
@@ -119,16 +127,23 @@
 {
     for (std::vector<F2EAnimationPart>::iterator it = animation->animations.begin(); it != animation->animations.end(); it++) {
         if ([animationName isEqualToString:[NSString stringWithFormat:@"%s", it->animationName.c_str()]])
-        {
-            [self playAnimationPart:&(*it) loop:loop time:time];
+        {   
+            animationObj *obj = [[animationObj alloc] init];
+            obj.part = &(*it);
+            obj.time = time;
+            obj.loop = loop;
+            
+            [animationQueue enqueue:obj];
+            
+            [obj release];
+            
+            break;
         }
     }
 }
 
 -(void)playAnimationPart:(F2EAnimationPart *)part loop:(BOOL)loop time:(float)time
 {
-    isAnimationPlaying = YES;
-    
     currentAnimationPart = part;
     frameCount = 0;
     float dt = time/part->frameCount;
@@ -138,7 +153,30 @@
 //time - time of full animation cycle
 -(void)playFullAnimationAndLoop:(BOOL)loop time:(float)time
 {
+    //time per frame
+    float dt = time/animation->framesCount;
     
+    std::vector<F2EAnimationPart>::iterator it = animation->animations.begin();
+    for (; it != animation->animations.end(); it++) {
+        animationObj *obj = [[animationObj alloc] init];
+        obj.part = &(*it);
+        obj.time = it->frameCount*dt;
+        obj.loop = loop;
+        
+        [animationQueue addObject:obj];
+        [obj release];
+    }
+    
+}
+
+-(void)update:(ccTime)dt
+{
+    if ([animationQueue count] > 0 && !isAnimationPlaying)
+    {
+        isAnimationPlaying = YES;
+        animationObj *obj = [animationQueue objectAtIndex:0];
+        [self playAnimationPart:obj.part loop:NO time:obj.time];
+    }
 }
 
 -(void)animateFrame
@@ -172,13 +210,17 @@
     else
     {
         [self unschedule:@selector(animateFrame)];
+        [animationQueue dequeue];
         isAnimationPlaying = NO;
     }
 }
 
 -(void)dealloc
 {
-    //TODO: добавить удаление строк из sprites.sprite.userData
+    for (CCSprite *sprite in sprites) {
+        free(sprite.userData);
+    }
+    
     delete animation;
     [sprites release];
     [super dealloc];

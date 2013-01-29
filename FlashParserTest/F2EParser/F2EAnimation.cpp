@@ -33,7 +33,7 @@ F2EAnimation::F2EAnimation(const char *animationName)
     buffer = getFileContent(fileName.c_str());
     
     if (buffer[0] != '\0')
-        parser->parseAnimations(&buffer, &animations);
+        framesCount = parser->parseAnimations(&buffer, &animations);
     else
         F2E_DEBUG("F2EAnimtion error: couldn't find animations xml file");
 }
