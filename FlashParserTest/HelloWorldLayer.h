@@ -11,7 +11,8 @@
 
 // When you import this file, you import all the cocos2d classes
 #import "cocos2d.h"
-#import "F2ECocos2D.hpp"
+
+@class F2ECocos2D;
 
 // HelloWorldLayer
 @interface HelloWorldLayer : CCLayer <GKAchievementViewControllerDelegate, GKLeaderboardViewControllerDelegate, CCTargetedTouchDelegate>

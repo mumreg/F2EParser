@@ -8,6 +8,8 @@
 
 #import "F2ECocos2D.hpp"
 
+//TODO: Проверить расходование памяти
+
 @implementation F2ECocos2D
 
 @synthesize isAnimationPlaying;
@@ -34,13 +36,19 @@
     return self;
 }
 
--(void)loadAnimationInfo:(NSString *)animationName
+-(NSString *)makePathForFile:(NSString *)fileName
 {
     NSBundle *b = [NSBundle mainBundle];
     NSString *dir = [b resourcePath];
     NSArray *parts = [NSArray arrayWithObjects:
-                      dir, animationName, (void *)nil];
-    NSString *path = [NSString pathWithComponents:parts];
+                      dir, fileName, (void *)nil];
+    
+    return [NSString pathWithComponents:parts];
+}
+
+-(void)loadAnimationInfo:(NSString *)animationName
+{
+    NSString *path = [self makePathForFile:animationName];
     const char *cpath = [path fileSystemRepresentation];
     
     animation = new F2EAnimation(cpath);
@@ -60,7 +68,10 @@
     NSString *sheetFile = [NSString stringWithFormat:@"%@_Sheet.png", name];
     NSString *plistFile = [NSString stringWithFormat:@"%@_Sheet.plist", name];
     
-    if ([fileManager fileExistsAtPath:sheetFile] && [fileManager fileExistsAtPath:plistFile]) {
+    NSString *path1 = [self makePathForFile:sheetFile];
+    NSString *path2 = [self makePathForFile:plistFile];
+    
+    if ([fileManager fileExistsAtPath:path1] && [fileManager fileExistsAtPath:path2]) {
         //load sprtes sheet
         CCSpriteBatchNode *spritesNode;
         spritesNode = [CCSpriteBatchNode batchNodeWithFile:sheetFile];
@@ -69,7 +80,10 @@
         [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:plistFile];
         
         sheetFlag = YES;
+        NSLog(@"F2E info: Found sprite sheet. Using it.");
     }
+    else
+        NSLog(@"F2E info: No sprite sheet. Using single sprites.");
     
     //load sprites
     for (std::vector<F2ESprite>::iterator it = animation->sprites.begin(); it != animation->sprites.end(); it++)
@@ -214,6 +228,8 @@
         isAnimationPlaying = NO;
     }
 }
+
+//TODO: Сделать функцию остановки анимации
 
 -(void)dealloc
 {

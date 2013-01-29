@@ -9,6 +9,7 @@
 
 // Import the interfaces
 #import "HelloWorldLayer.h"
+#import "F2ECocos2D.hpp"
 
 // Needed to obtain the Navigation Controller
 #import "AppDelegate.h"

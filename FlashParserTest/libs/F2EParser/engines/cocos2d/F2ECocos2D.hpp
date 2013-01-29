@@ -40,6 +40,8 @@
 -(void)playAnimationPart:(F2EAnimationPart *)part loop:(BOOL)loop time:(float)time;
 -(void)animateFrame;
 
+-(NSString *)makePathForFile:(NSString *)fileName;
+
 @property (nonatomic) BOOL isAnimationPlaying;
 
 @end
