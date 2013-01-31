@@ -15,6 +15,5 @@
 
 @property (nonatomic) F2EAnimationPart *part;
 @property (nonatomic) float time;
-@property (nonatomic) BOOL loop;
 
 @end

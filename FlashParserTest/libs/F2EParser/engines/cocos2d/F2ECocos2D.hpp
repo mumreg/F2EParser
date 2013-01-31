@@ -35,9 +35,10 @@
 -(void)loadSprites;
 -(void)loadAnimations;
 
--(void)playFullAnimationAndLoop:(BOOL)loop time:(float)time;
--(void)playAnimation:(NSString *)animationName loop:(BOOL)loop time:(float)time;
--(void)playAnimationPart:(F2EAnimationPart *)part loop:(BOOL)loop time:(float)time;
+-(void)playFullAnimation:(float)time;
+-(void)playAnimation:(NSString *)animationName time:(float)time;
+-(void)playAnimationPart:(F2EAnimationPart *)part time:(float)time;
+
 -(void)animateFrame;
 
 -(NSString *)makePathForFile:(NSString *)fileName;

@@ -8,8 +8,6 @@
 
 #import "F2ECocos2D.hpp"
 
-//TODO: Проверить расходование памяти
-
 @implementation F2ECocos2D
 
 @synthesize isAnimationPlaying;
@@ -137,7 +135,7 @@
 }
 
 //time - time per one full animation cycle
--(void)playAnimation:(NSString *)animationName loop:(BOOL)loop time:(float)time
+-(void)playAnimation:(NSString *)animationName time:(float)time
 {
     for (std::vector<F2EAnimationPart>::iterator it = animation->animations.begin(); it != animation->animations.end(); it++) {
         if ([animationName isEqualToString:[NSString stringWithFormat:@"%s", it->animationName.c_str()]])
@@ -145,7 +143,6 @@
             animationObj *obj = [[animationObj alloc] init];
             obj.part = &(*it);
             obj.time = time;
-            obj.loop = loop;
             
             [animationQueue enqueue:obj];
             
@@ -156,7 +153,7 @@
     }
 }
 
--(void)playAnimationPart:(F2EAnimationPart *)part loop:(BOOL)loop time:(float)time
+-(void)playAnimationPart:(F2EAnimationPart *)part time:(float)time
 {
     currentAnimationPart = part;
     frameCount = 0;
@@ -165,7 +162,7 @@
 }
 
 //time - time of full animation cycle
--(void)playFullAnimationAndLoop:(BOOL)loop time:(float)time
+-(void)playFullAnimation:(float)time
 {
     //time per frame
     float dt = time/animation->framesCount;
@@ -175,7 +172,6 @@
         animationObj *obj = [[animationObj alloc] init];
         obj.part = &(*it);
         obj.time = it->frameCount*dt;
-        obj.loop = loop;
         
         [animationQueue addObject:obj];
         [obj release];
@@ -184,12 +180,12 @@
 }
 
 -(void)update:(ccTime)dt
-{
+{    
     if ([animationQueue count] > 0 && !isAnimationPlaying)
     {
         isAnimationPlaying = YES;
         animationObj *obj = [animationQueue objectAtIndex:0];
-        [self playAnimationPart:obj.part loop:NO time:obj.time];
+        [self playAnimationPart:obj.part time:obj.time];
     }
 }
 
@@ -228,8 +224,6 @@
         isAnimationPlaying = NO;
     }
 }
-
-//TODO: Сделать функцию остановки анимации
 
 -(void)dealloc
 {

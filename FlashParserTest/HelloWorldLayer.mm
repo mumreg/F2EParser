@@ -114,7 +114,7 @@
 {
     if (!newAnimation.isAnimationPlaying)
     {
-        [newAnimation playFullAnimationAndLoop:NO time:1.0f];
+        [newAnimation playFullAnimation:1.0f];
     }
     return NO;
 }

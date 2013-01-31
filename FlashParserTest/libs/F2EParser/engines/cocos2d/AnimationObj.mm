@@ -12,6 +12,5 @@
 
 @synthesize part;
 @synthesize time;
-@synthesize loop;
 
 @end
