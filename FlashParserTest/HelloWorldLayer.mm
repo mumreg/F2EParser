@@ -102,7 +102,7 @@
 //		[self addChild:menu];
         
         newAnimation = [[F2ECocos2D alloc] initWithAnimation:@"Sc03"];
-        [newAnimation setPosition:ccp(0, 0)];
+        [newAnimation setPosition:ccp(size.width/2 - 100.0f, size.height/2)];
         [self addChild:newAnimation];
         
         self.isTouchEnabled = YES;

@@ -9,14 +9,6 @@
 /* Begin PBXBuildFile section */
 		ED0ED0E816B11D9F00AF05F7 /* Sc01_Anim.xml in Resources */ = {isa = PBXBuildFile; fileRef = ED0ED0DF16B11D9F00AF05F7 /* Sc01_Anim.xml */; };
 		ED0ED0ED16B1271A00AF05F7 /* Sc01_Sheet.xml in Resources */ = {isa = PBXBuildFile; fileRef = ED0ED0EC16B1271A00AF05F7 /* Sc01_Sheet.xml */; };
-		ED0F0CA716C8D28B003DA1EA /* Sc_03_beak.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0F0C9916C8D28B003DA1EA /* Sc_03_beak.png */; };
-		ED0F0CA816C8D28B003DA1EA /* Sc_03_beak1.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0F0C9A16C8D28B003DA1EA /* Sc_03_beak1.png */; };
-		ED0F0CA916C8D28B003DA1EA /* Sc_03_door1.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0F0C9B16C8D28B003DA1EA /* Sc_03_door1.png */; };
-		ED0F0CAA16C8D28B003DA1EA /* Sc_03_door2.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0F0C9C16C8D28B003DA1EA /* Sc_03_door2.png */; };
-		ED0F0CAB16C8D28B003DA1EA /* Sc_03_head.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0F0C9D16C8D28B003DA1EA /* Sc_03_head.png */; };
-		ED0F0CAC16C8D28B003DA1EA /* Sc_03_stick.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0F0C9E16C8D28B003DA1EA /* Sc_03_stick.png */; };
-		ED0F0CAD16C8D28B003DA1EA /* Sc03_Anim.xml in Resources */ = {isa = PBXBuildFile; fileRef = ED0F0C9F16C8D28B003DA1EA /* Sc03_Anim.xml */; };
-		ED0F0CAE16C8D28B003DA1EA /* Sc03_Sheet.xml in Resources */ = {isa = PBXBuildFile; fileRef = ED0F0CA016C8D28B003DA1EA /* Sc03_Sheet.xml */; };
 		ED406F9716B7FBD400D16081 /* Sc01_arm1.png in Resources */ = {isa = PBXBuildFile; fileRef = ED406F8716B7FBD400D16081 /* Sc01_arm1.png */; };
 		ED406F9816B7FBD400D16081 /* Sc01_arm2.png in Resources */ = {isa = PBXBuildFile; fileRef = ED406F8816B7FBD400D16081 /* Sc01_arm2.png */; };
 		ED406F9916B7FBD400D16081 /* Sc01_arm3.png in Resources */ = {isa = PBXBuildFile; fileRef = ED406F8916B7FBD400D16081 /* Sc01_arm3.png */; };
@@ -40,6 +32,12 @@
 		ED406FCC16B8037200D16081 /* NSMutableArray+QueueAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ED406FBF16B8037200D16081 /* NSMutableArray+QueueAdditions.m */; };
 		ED406FCD16B8037200D16081 /* F2EAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED406FC016B8037200D16081 /* F2EAnimation.cpp */; };
 		ED406FCE16B8037200D16081 /* F2EParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED406FC216B8037200D16081 /* F2EParser.cpp */; };
+		ED52C5F916C940D40030831E /* Sc03_Sheet-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED52C5F416C940D40030831E /* Sc03_Sheet-ipadhd.plist */; };
+		ED52C5FA16C940D40030831E /* Sc03_Sheet-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = ED52C5F516C940D40030831E /* Sc03_Sheet-ipadhd.png */; };
+		ED52C5FB16C940D40030831E /* Sc03_Sheet.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED52C5F716C940D40030831E /* Sc03_Sheet.plist */; };
+		ED52C5FC16C940D40030831E /* Sc03_Sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = ED52C5F816C940D40030831E /* Sc03_Sheet.png */; };
+		ED52C5FF16C941060030831E /* Sc03_Anim.xml in Resources */ = {isa = PBXBuildFile; fileRef = ED52C5FD16C941060030831E /* Sc03_Anim.xml */; };
+		ED52C60016C941060030831E /* Sc03_Sheet.xml in Resources */ = {isa = PBXBuildFile; fileRef = ED52C5FE16C941060030831E /* Sc03_Sheet.xml */; };
 		ED93C98516B2B336002D0438 /* HelloWorldLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = ED93C98416B2B336002D0438 /* HelloWorldLayer.mm */; };
 		EDBF73DB16AFECEA00F99767 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBF73DA16AFECEA00F99767 /* QuartzCore.framework */; };
 		EDBF73DD16AFECEA00F99767 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBF73DC16AFECEA00F99767 /* OpenGLES.framework */; };
@@ -169,14 +167,6 @@
 /* Begin PBXFileReference section */
 		ED0ED0DF16B11D9F00AF05F7 /* Sc01_Anim.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Sc01_Anim.xml; path = Resources/Sc01_Anim.xml; sourceTree = "<group>"; };
 		ED0ED0EC16B1271A00AF05F7 /* Sc01_Sheet.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Sc01_Sheet.xml; path = Resources/Sc01_Sheet.xml; sourceTree = "<group>"; };
-		ED0F0C9916C8D28B003DA1EA /* Sc_03_beak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sc_03_beak.png; sourceTree = "<group>"; };
-		ED0F0C9A16C8D28B003DA1EA /* Sc_03_beak1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sc_03_beak1.png; sourceTree = "<group>"; };
-		ED0F0C9B16C8D28B003DA1EA /* Sc_03_door1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sc_03_door1.png; sourceTree = "<group>"; };
-		ED0F0C9C16C8D28B003DA1EA /* Sc_03_door2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sc_03_door2.png; sourceTree = "<group>"; };
-		ED0F0C9D16C8D28B003DA1EA /* Sc_03_head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sc_03_head.png; sourceTree = "<group>"; };
-		ED0F0C9E16C8D28B003DA1EA /* Sc_03_stick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sc_03_stick.png; sourceTree = "<group>"; };
-		ED0F0C9F16C8D28B003DA1EA /* Sc03_Anim.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Sc03_Anim.xml; path = Resources/Sc03_Anim.xml; sourceTree = "<group>"; };
-		ED0F0CA016C8D28B003DA1EA /* Sc03_Sheet.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Sc03_Sheet.xml; path = Resources/Sc03_Sheet.xml; sourceTree = "<group>"; };
 		ED406F8716B7FBD400D16081 /* Sc01_arm1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sc01_arm1.png; sourceTree = "<group>"; };
 		ED406F8816B7FBD400D16081 /* Sc01_arm2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sc01_arm2.png; sourceTree = "<group>"; };
 		ED406F8916B7FBD400D16081 /* Sc01_arm3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sc01_arm3.png; sourceTree = "<group>"; };
@@ -210,6 +200,12 @@
 		ED406FC716B8037200D16081 /* rapidxml_iterators.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_iterators.hpp; sourceTree = "<group>"; };
 		ED406FC816B8037200D16081 /* rapidxml_print.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_print.hpp; sourceTree = "<group>"; };
 		ED406FC916B8037200D16081 /* rapidxml_utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_utils.hpp; sourceTree = "<group>"; };
+		ED52C5F416C940D40030831E /* Sc03_Sheet-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Sc03_Sheet-ipadhd.plist"; sourceTree = "<group>"; };
+		ED52C5F516C940D40030831E /* Sc03_Sheet-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sc03_Sheet-ipadhd.png"; sourceTree = "<group>"; };
+		ED52C5F716C940D40030831E /* Sc03_Sheet.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Sc03_Sheet.plist; sourceTree = "<group>"; };
+		ED52C5F816C940D40030831E /* Sc03_Sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sc03_Sheet.png; sourceTree = "<group>"; };
+		ED52C5FD16C941060030831E /* Sc03_Anim.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Sc03_Anim.xml; sourceTree = "<group>"; };
+		ED52C5FE16C941060030831E /* Sc03_Sheet.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Sc03_Sheet.xml; sourceTree = "<group>"; };
 		ED93C98416B2B336002D0438 /* HelloWorldLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HelloWorldLayer.mm; sourceTree = "<group>"; };
 		EDBF73D616AFECEA00F99767 /* FlashParserTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashParserTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDBF73DA16AFECEA00F99767 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -504,23 +500,13 @@
 		ED0F0C9016C8D28B003DA1EA /* anim_sc03 */ = {
 			isa = PBXGroup;
 			children = (
-				ED0F0C9816C8D28B003DA1EA /* SD */,
+				ED52C5FD16C941060030831E /* Sc03_Anim.xml */,
+				ED52C5FE16C941060030831E /* Sc03_Sheet.xml */,
+				ED52C5F316C940D40030831E /* HD */,
+				ED52C5F616C940D40030831E /* SD */,
 			);
 			name = anim_sc03;
 			path = Resources/anim_sc03;
-			sourceTree = "<group>";
-		};
-		ED0F0C9816C8D28B003DA1EA /* SD */ = {
-			isa = PBXGroup;
-			children = (
-				ED0F0C9916C8D28B003DA1EA /* Sc_03_beak.png */,
-				ED0F0C9A16C8D28B003DA1EA /* Sc_03_beak1.png */,
-				ED0F0C9B16C8D28B003DA1EA /* Sc_03_door1.png */,
-				ED0F0C9C16C8D28B003DA1EA /* Sc_03_door2.png */,
-				ED0F0C9D16C8D28B003DA1EA /* Sc_03_head.png */,
-				ED0F0C9E16C8D28B003DA1EA /* Sc_03_stick.png */,
-			);
-			path = SD;
 			sourceTree = "<group>";
 		};
 		ED406F7D16B7FBD400D16081 /* HD */ = {
@@ -602,6 +588,24 @@
 			path = "rapidxml-1.13";
 			sourceTree = "<group>";
 		};
+		ED52C5F316C940D40030831E /* HD */ = {
+			isa = PBXGroup;
+			children = (
+				ED52C5F416C940D40030831E /* Sc03_Sheet-ipadhd.plist */,
+				ED52C5F516C940D40030831E /* Sc03_Sheet-ipadhd.png */,
+			);
+			path = HD;
+			sourceTree = "<group>";
+		};
+		ED52C5F616C940D40030831E /* SD */ = {
+			isa = PBXGroup;
+			children = (
+				ED52C5F716C940D40030831E /* Sc03_Sheet.plist */,
+				ED52C5F816C940D40030831E /* Sc03_Sheet.png */,
+			);
+			path = SD;
+			sourceTree = "<group>";
+		};
 		EDBF73CB16AFECEA00F99767 = {
 			isa = PBXGroup;
 			children = (
@@ -653,8 +657,6 @@
 			isa = PBXGroup;
 			children = (
 				ED0F0C9016C8D28B003DA1EA /* anim_sc03 */,
-				ED0F0C9F16C8D28B003DA1EA /* Sc03_Anim.xml */,
-				ED0F0CA016C8D28B003DA1EA /* Sc03_Sheet.xml */,
 				ED0ED0D716B11D9F00AF05F7 /* anim_sc01 */,
 				ED0ED0EC16B1271A00AF05F7 /* Sc01_Sheet.xml */,
 				ED0ED0DF16B11D9F00AF05F7 /* Sc01_Anim.xml */,
@@ -1100,14 +1102,12 @@
 				ED406FAE16B7FCA100D16081 /* Sc01_kids-ipadhd.png in Resources */,
 				ED406FB516B7FF6C00D16081 /* Sc01_Sheet.plist in Resources */,
 				ED406FB616B7FF6C00D16081 /* Sc01_Sheet.png in Resources */,
-				ED0F0CA716C8D28B003DA1EA /* Sc_03_beak.png in Resources */,
-				ED0F0CA816C8D28B003DA1EA /* Sc_03_beak1.png in Resources */,
-				ED0F0CA916C8D28B003DA1EA /* Sc_03_door1.png in Resources */,
-				ED0F0CAA16C8D28B003DA1EA /* Sc_03_door2.png in Resources */,
-				ED0F0CAB16C8D28B003DA1EA /* Sc_03_head.png in Resources */,
-				ED0F0CAC16C8D28B003DA1EA /* Sc_03_stick.png in Resources */,
-				ED0F0CAD16C8D28B003DA1EA /* Sc03_Anim.xml in Resources */,
-				ED0F0CAE16C8D28B003DA1EA /* Sc03_Sheet.xml in Resources */,
+				ED52C5F916C940D40030831E /* Sc03_Sheet-ipadhd.plist in Resources */,
+				ED52C5FA16C940D40030831E /* Sc03_Sheet-ipadhd.png in Resources */,
+				ED52C5FB16C940D40030831E /* Sc03_Sheet.plist in Resources */,
+				ED52C5FC16C940D40030831E /* Sc03_Sheet.png in Resources */,
+				ED52C5FF16C941060030831E /* Sc03_Anim.xml in Resources */,
+				ED52C60016C941060030831E /* Sc03_Sheet.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,10 @@
+<Textures>
+  <TextureSheet name="sc_03_anim">
+    <Texture name="Sc_03_head" width="83" height="79" path="sc_03_anim/Sc_03_head.png" registrationPointX="2.00" registrationPointY="2.00" zIndex="5"/>
+    <Texture name="Sc_03_beak" width="76" height="34" path="sc_03_anim/Sc_03_beak.png" registrationPointX="1.00" registrationPointY="2.00" zIndex="4"/>
+    <Texture name="Sc_03_beak1" width="75" height="31" path="sc_03_anim/Sc_03_beak1.png" registrationPointX="2.00" registrationPointY="2.00" zIndex="3"/>
+    <Texture name="Sc_03_stick" width="260" height="61" path="sc_03_anim/Sc_03_stick.png" registrationPointX="2.00" registrationPointY="2.00" zIndex="2"/>
+    <Texture name="Sc_03_door2" width="28" height="47" path="sc_03_anim/Sc_03_door2.png" registrationPointX="2.00" registrationPointY="2.00" zIndex="1"/>
+    <Texture name="Sc_03_door1" width="28" height="47" path="sc_03_anim/Sc_03_door1.png" registrationPointX="2.00" registrationPointY="2.00"/>
+  </TextureSheet>
+</Textures>
