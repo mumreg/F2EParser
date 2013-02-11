@@ -123,10 +123,21 @@
             
             if ([partName isEqualToString:spriteName])
             {
-                F2EFrame frame = part.frames[0];
-                CGPoint position = ccp(frame.x, -1.0f*frame.y);
-                [sprite setRotation:frame.rotation];
-                [sprite setPosition:position];
+                if (part.frames.size() != 0)
+                {
+                    F2EFrame frame = part.frames[0];
+                    
+                    CGPoint position = ccp(frame.x, -1.0f*frame.y);
+                    [sprite setPosition:position];
+                    
+                    [sprite setRotation:frame.rotation];
+                    
+                    NSInteger opacity = (NSInteger)(255.0f*frame.opacity);
+                    [sprite setOpacity:opacity];
+                    
+                    [sprite setScaleX:frame.scaleX];
+                    [sprite setScaleY:frame.scaleY];
+                }
                 
                 [self addChild:sprite];
             }
@@ -208,8 +219,15 @@
                         F2EFrame *frame = &(it->frames[frameCount]);
                         
                         CGPoint position = ccp(frame->x, -1.0f*frame->y);
-                        [sprite setRotation:frame->rotation];
                         [sprite setPosition:position];
+                        
+                        [sprite setRotation:frame->rotation];
+                        
+                        NSInteger opacity = (NSInteger)(255.0f*frame->opacity);
+                        [sprite setOpacity:opacity];
+                        
+                        [sprite setScaleX:frame->scaleX];
+                        [sprite setScaleY:frame->scaleY];
                     }
                 }
             }

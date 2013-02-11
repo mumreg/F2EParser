@@ -41,6 +41,7 @@ typedef struct _F2EFrame
     float scaleY;
     
     float rotation;
+    float opacity;
     
     unsigned int index;
 } F2EFrame;

@@ -1,0 +1,218 @@
+<Animations>
+  <Animation name="1" frameCount="6">
+    <Part name="Sc_03_beak"/>
+    <Part name="Sc_03_beak1"/>
+    <Part name="Sc_03_door1">
+      <Frame x="12.15" y="-99.20" index="0"/>
+      <Frame x="12.15" y="-98.45" scaleX="0.869" scaleY="0.965" alpha="0.83" index="1"/>
+      <Frame x="12.15" y="-97.70" scaleX="0.738" scaleY="0.930" alpha="0.66" index="2"/>
+      <Frame x="12.15" y="-96.95" scaleX="0.606" scaleY="0.895" alpha="0.50" index="3"/>
+      <Frame x="12.15" y="-96.20" scaleX="0.475" scaleY="0.860" alpha="0.33" index="4"/>
+      <Frame x="12.15" y="-95.45" scaleX="0.344" scaleY="0.826" alpha="0.16" index="5"/>
+    </Part>
+    <Part name="Sc_03_door2">
+      <Frame x="29.75" y="-99.20" index="0"/>
+      <Frame x="33.25" y="-98.30" scaleX="0.848" scaleY="0.965" alpha="0.83" index="1"/>
+      <Frame x="36.80" y="-97.40" scaleX="0.695" scaleY="0.930" alpha="0.66" index="2"/>
+      <Frame x="40.25" y="-96.45" scaleX="0.543" scaleY="0.895" alpha="0.50" index="3"/>
+      <Frame x="43.75" y="-95.55" scaleX="0.390" scaleY="0.861" alpha="0.33" index="4"/>
+      <Frame x="47.25" y="-94.65" scaleX="0.238" scaleY="0.826" alpha="0.16" index="5"/>
+    </Part>
+    <Part name="Sc_03_head"/>
+    <Part name="Sc_03_stick"/>
+  </Animation>
+  <Animation name="2" frameCount="2">
+    <Part name="Sc_03_beak">
+      <Frame x="77.30" y="-99.20" scaleX="0.812" scaleY="0.702" rotation="-23.315" index="0"/>
+      <Frame x="127.25" y="-120.40" scaleX="0.766" scaleY="0.711" rotation="-20.537" index="1"/>
+    </Part>
+    <Part name="Sc_03_beak1">
+      <Frame x="77.85" y="-84.50" scaleX="0.812" scaleY="0.702" rotation="-23.315" index="0"/>
+      <Frame x="125.75" y="-105.20" scaleX="0.766" scaleY="0.711" rotation="-20.522" index="1"/>
+    </Part>
+    <Part name="Sc_03_door1"/>
+    <Part name="Sc_03_door2"/>
+    <Part name="Sc_03_head">
+      <Frame x="13.75" y="-91.15" scaleX="0.812" scaleY="0.702" rotation="-23.315" index="0"/>
+      <Frame x="70.45" y="-116.60" scaleX="0.766" scaleY="0.711" rotation="-19.824" index="1"/>
+    </Part>
+    <Part name="Sc_03_stick">
+      <Frame x="14.70" y="-82.00" scaleX="0.392" scaleY="0.572" rotation="-17.772" index="0"/>
+      <Frame x="12.40" y="-86.90" scaleX="0.501" scaleY="0.653" rotation="-16.259" index="1"/>
+    </Part>
+  </Animation>
+  <Animation name="3" frameCount="2">
+    <Part name="Sc_03_beak">
+      <Frame x="177.60" y="-141.35" scaleX="0.719" scaleY="0.719" rotation="-17.759" index="0"/>
+      <Frame x="216.55" y="-136.75" scaleX="0.751" scaleY="0.751" rotation="-9.310" index="1"/>
+    </Part>
+    <Part name="Sc_03_beak1">
+      <Frame x="173.85" y="-125.95" scaleX="0.719" scaleY="0.719" rotation="-17.545" index="0"/>
+      <Frame x="214.15" y="-123.55" scaleX="0.751" scaleY="0.751" rotation="-2.002" index="1"/>
+    </Part>
+    <Part name="Sc_03_door1"/>
+    <Part name="Sc_03_door2"/>
+    <Part name="Sc_03_head">
+      <Frame x="127.70" y="-141.30" scaleX="0.719" scaleY="0.720" rotation="-16.519" index="0"/>
+      <Frame x="168.30" y="-147.15" scaleX="0.745" scaleY="0.734" rotation="-4.726" index="1"/>
+    </Part>
+    <Part name="Sc_03_stick">
+      <Frame x="10.20" y="-91.85" scaleX="0.609" scaleY="0.733" rotation="-14.747" index="0"/>
+      <Frame x="8.25" y="-96.95" scaleX="0.718" scaleY="0.814" rotation="-13.048" index="1"/>
+    </Part>
+  </Animation>
+  <Animation name="4" frameCount="2">
+    <Part name="Sc_03_beak">
+      <Frame x="256.15" y="-131.60" scaleX="0.783" scaleY="0.783" rotation="-1.244" index="0"/>
+      <Frame x="281.85" y="-126.95" scaleX="0.814" scaleY="0.814" rotation="-5.010" index="1"/>
+    </Part>
+    <Part name="Sc_03_beak1">
+      <Frame x="255.25" y="-120.10" scaleX="0.783" scaleY="0.783" rotation="13.516" index="0"/>
+      <Frame x="287.25" y="-115.65" scaleX="0.813" scaleY="0.813" rotation="25.611" index="1"/>
+    </Part>
+    <Part name="Sc_03_door1"/>
+    <Part name="Sc_03_door2"/>
+    <Part name="Sc_03_head">
+      <Frame x="210.50" y="-149.25" scaleX="0.770" scaleY="0.748" rotation="7.032" index="0"/>
+      <Frame x="241.95" y="-154.00" scaleX="0.808" scaleY="0.796" rotation="16.554" index="1"/>
+    </Part>
+    <Part name="Sc_03_stick">
+      <Frame x="6.45" y="-102.10" scaleX="0.827" scaleY="0.895" rotation="-11.725" index="0"/>
+      <Frame x="5.40" y="-102.15" scaleX="0.931" scaleY="0.894" rotation="-10.741" index="1"/>
+    </Part>
+  </Animation>
+  <Animation name="5" frameCount="4">
+    <Part name="Sc_03_beak">
+      <Frame x="307.25" y="-122.20" scaleX="0.845" scaleY="0.845" rotation="-8.961" index="0"/>
+      <Frame x="308.75" y="-123.55" scaleX="0.894" scaleY="0.897" rotation="-13.487" index="1"/>
+      <Frame x="310.35" y="-124.80" scaleX="0.941" scaleY="0.947" rotation="-18.042" index="2"/>
+      <Frame x="311.80" y="-125.60" scaleX="0.990" scaleY="0.998" rotation="-22.772" index="3"/>
+    </Part>
+    <Part name="Sc_03_beak1">
+      <Frame x="319.50" y="-110.30" scaleX="0.844" scaleY="0.844" rotation="38.091" index="0"/>
+      <Frame x="320.55" y="-109.55" scaleX="0.894" scaleY="0.896" rotation="41.174" index="1"/>
+      <Frame x="321.80" y="-108.55" scaleX="0.944" scaleY="0.948" rotation="44.637" index="2"/>
+      <Frame x="323.15" y="-107.40" scaleX="0.995" rotation="47.913" index="3"/>
+    </Part>
+    <Part name="Sc_03_door1"/>
+    <Part name="Sc_03_door2"/>
+    <Part name="Sc_03_head">
+      <Frame x="274.25" y="-157.00" scaleX="0.845" scaleY="0.844" rotation="26.082" index="0"/>
+      <Frame x="272.05" y="-156.35" scaleX="0.876" scaleY="0.876" rotation="21.836" index="1"/>
+      <Frame x="269.50" y="-155.40" scaleX="0.908" scaleY="0.908" rotation="17.776" index="2"/>
+      <Frame x="266.15" y="-153.75" scaleX="0.940" scaleY="0.940" rotation="13.346" index="3"/>
+    </Part>
+    <Part name="Sc_03_stick">
+      <Frame x="4.35" y="-102.15" scaleX="1.036" scaleY="0.894" rotation="-9.755" index="0"/>
+      <Frame x="5.10" y="-104.75" scaleX="1.031" scaleY="0.924" rotation="-8.264" index="1"/>
+      <Frame x="5.80" y="-107.15" scaleX="1.027" scaleY="0.954" rotation="-6.774" index="2"/>
+      <Frame x="6.60" y="-109.70" scaleX="1.022" scaleY="0.985" rotation="-5.285" index="3"/>
+    </Part>
+  </Animation>
+  <Animation name="6" frameCount="2">
+    <Part name="Sc_03_beak">
+      <Frame x="313.20" y="-126.30" scaleX="1.038" scaleY="1.048" rotation="-27.315" index="0"/>
+      <Frame x="275.50" y="-127.25" scaleX="0.959" scaleY="0.967" rotation="-12.496" index="1"/>
+    </Part>
+    <Part name="Sc_03_beak1">
+      <Frame x="324.50" y="-106.05" scaleX="1.045" scaleY="1.052" rotation="51.375" index="0"/>
+      <Frame x="271.05" y="-110.10" scaleX="0.964" scaleY="0.969" rotation="31.326" index="1"/>
+    </Part>
+    <Part name="Sc_03_door1"/>
+    <Part name="Sc_03_door2"/>
+    <Part name="Sc_03_head">
+      <Frame x="262.75" y="-151.75" scaleX="0.972" scaleY="0.972" rotation="9.291" index="0"/>
+      <Frame x="220.55" y="-153.10" scaleX="0.909" scaleY="0.909" rotation="7.592" index="1"/>
+    </Part>
+    <Part name="Sc_03_stick">
+      <Frame x="7.45" y="-112.10" scaleX="1.018" scaleY="1.015" rotation="-3.791" index="0"/>
+      <Frame x="11.65" y="-104.70" scaleX="0.868" scaleY="0.903" rotation="-6.478" index="1"/>
+    </Part>
+  </Animation>
+  <Animation name="7" frameCount="2">
+    <Part name="Sc_03_beak">
+      <Frame x="237.90" y="-126.05" scaleX="0.880" scaleY="0.885" rotation="2.299" index="0"/>
+      <Frame x="196.70" y="-123.45" scaleX="0.800" scaleY="0.803" rotation="-8.688" index="1"/>
+    </Part>
+    <Part name="Sc_03_beak1">
+      <Frame x="218.10" y="-111.50" scaleX="0.883" scaleY="0.887" rotation="11.295" index="0"/>
+      <Frame x="183.70" y="-107.90" scaleX="0.802" scaleY="0.803" rotation="-3.797" index="1"/>
+    </Part>
+    <Part name="Sc_03_door1"/>
+    <Part name="Sc_03_door2"/>
+    <Part name="Sc_03_head">
+      <Frame x="178.85" y="-154.40" scaleX="0.846" scaleY="0.846" rotation="6.079" index="0"/>
+      <Frame x="138.70" y="-136.90" scaleX="0.783" scaleY="0.783" rotation="-5.713" index="1"/>
+    </Part>
+    <Part name="Sc_03_stick">
+      <Frame x="15.65" y="-97.55" scaleX="0.718" scaleY="0.791" rotation="-8.790" index="0"/>
+      <Frame x="18.55" y="-93.40" scaleX="0.607" scaleY="0.718" rotation="-7.782" index="1"/>
+    </Part>
+  </Animation>
+  <Animation name="8" frameCount="2">
+    <Part name="Sc_03_beak">
+      <Frame x="157.50" y="-120.30" scaleX="0.720" scaleY="0.720" rotation="-19.524" index="0"/>
+      <Frame x="117.60" y="-109.05" scaleX="0.745" scaleY="0.703" rotation="-22.057" index="1"/>
+    </Part>
+    <Part name="Sc_03_beak1">
+      <Frame x="150.60" y="-103.50" scaleX="0.720" scaleY="0.720" rotation="-19.293" index="0"/>
+      <Frame x="112.50" y="-93.90" scaleX="0.745" scaleY="0.703" rotation="-22.034" index="1"/>
+    </Part>
+    <Part name="Sc_03_door1"/>
+    <Part name="Sc_03_door2"/>
+    <Part name="Sc_03_head">
+      <Frame x="101.35" y="-117.25" scaleX="0.719" scaleY="0.720" rotation="-17.540" index="0"/>
+      <Frame x="58.50" y="-104.05" scaleX="0.745" scaleY="0.703" rotation="-21.065" index="1"/>
+    </Part>
+    <Part name="Sc_03_stick">
+      <Frame x="21.20" y="-89.10" scaleX="0.497" scaleY="0.644" rotation="-6.774" index="0"/>
+      <Frame x="23.70" y="-84.85" scaleX="0.387" scaleY="0.571" rotation="-5.768" index="1"/>
+    </Part>
+  </Animation>
+  <Animation name="9" frameCount="7">
+    <Part name="Sc_03_beak">
+      <Frame x="78.10" y="-97.65" scaleX="0.770" scaleY="0.686" rotation="-24.780" index="0"/>
+      <Frame x="78.10" y="-97.65" scaleX="0.770" scaleY="0.686" rotation="-24.780" alpha="0.01" index="1"/>
+    </Part>
+    <Part name="Sc_03_beak1">
+      <Frame x="74.65" y="-84.45" scaleX="0.770" scaleY="0.686" rotation="-24.780" index="0"/>
+      <Frame x="74.65" y="-84.45" scaleX="0.770" scaleY="0.686" rotation="-24.780" alpha="0.01" index="1"/>
+    </Part>
+    <Part name="Sc_03_door1">
+      <Frame x="12.15" y="-95.35" scaleX="0.325" scaleY="0.821" alpha="0.14" index="1"/>
+      <Frame x="12.15" y="-95.95" scaleX="0.438" scaleY="0.850" alpha="0.28" index="2"/>
+      <Frame x="12.15" y="-96.65" scaleX="0.550" scaleY="0.880" alpha="0.42" index="3"/>
+      <Frame x="12.15" y="-97.25" scaleX="0.663" scaleY="0.910" alpha="0.57" index="4"/>
+      <Frame x="12.15" y="-97.90" scaleX="0.775" scaleY="0.940" alpha="0.71" index="5"/>
+      <Frame x="12.15" y="-98.55" scaleX="0.888" scaleY="0.970" alpha="0.85" index="6"/>
+    </Part>
+    <Part name="Sc_03_door2">
+      <Frame x="47.70" y="-94.45" scaleX="0.216" scaleY="0.821" alpha="0.14" index="1"/>
+      <Frame x="44.75" y="-95.30" scaleX="0.346" scaleY="0.851" alpha="0.28" index="2"/>
+      <Frame x="41.75" y="-96.10" scaleX="0.477" scaleY="0.881" alpha="0.42" index="3"/>
+      <Frame x="38.80" y="-96.85" scaleX="0.608" scaleY="0.910" alpha="0.57" index="4"/>
+      <Frame x="35.75" y="-97.65" scaleX="0.739" scaleY="0.940" alpha="0.71" index="5"/>
+      <Frame x="32.80" y="-98.45" scaleX="0.869" scaleY="0.970" alpha="0.85" index="6"/>
+    </Part>
+    <Part name="Sc_03_head">
+      <Frame x="15.95" y="-90.65" scaleX="0.770" scaleY="0.686" rotation="-24.780" index="0"/>
+      <Frame x="15.95" y="-90.65" scaleX="0.770" scaleY="0.686" rotation="-24.780" alpha="0.01" index="1"/>
+    </Part>
+    <Part name="Sc_03_stick">
+      <Frame x="26.15" y="-80.40" scaleX="0.276" scaleY="0.498" rotation="-4.761" index="0"/>
+      <Frame x="26.15" y="-80.40" scaleX="0.276" scaleY="0.498" rotation="-4.761" alpha="0.01" index="1"/>
+    </Part>
+  </Animation>
+  <Animation name="91" frameCount="1">
+    <Part name="Sc_03_beak"/>
+    <Part name="Sc_03_beak1"/>
+    <Part name="Sc_03_door1">
+      <Frame x="12.15" y="-99.20" index="0"/>
+    </Part>
+    <Part name="Sc_03_door2">
+      <Frame x="29.75" y="-99.20" index="0"/>
+    </Part>
+    <Part name="Sc_03_head"/>
+    <Part name="Sc_03_stick"/>
+  </Animation>
+</Animations>

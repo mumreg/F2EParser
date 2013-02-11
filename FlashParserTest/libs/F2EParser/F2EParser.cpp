@@ -163,6 +163,12 @@ void F2EParser::saveAttrToFrame(string *attr_name, string *attr_value, F2EFrame 
         frame->index = StringToNumber<int>(value);
         return;
     }
+    
+    if (name == string("alpha"))
+    {
+        frame->opacity = StringToNumber<float>(value);
+        return;
+    }
 }
 
 void F2EParser::saveAttrToSprite(string *attr_name, string *attr_value, F2ESprite *sprite)
@@ -218,9 +224,10 @@ void F2EParser::resetFrame(F2EFrame *frame)
     frame->x = 0;
     frame->y = 0;
     frame->rotation = 0;
-    frame->scaleX = 0;
-    frame->scaleY = 0;
+    frame->scaleX = 1.0f;
+    frame->scaleY = 1.0f;
     frame->index = 0;
+    frame->opacity = 1.0f;
 }
 
 void F2EParser::resetSprite(F2ESprite *sprite)

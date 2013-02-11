@@ -101,7 +101,7 @@
 		// Add the menu to the layer
 //		[self addChild:menu];
         
-        newAnimation = [[F2ECocos2D alloc] initWithAnimation:@"Sc01"];
+        newAnimation = [[F2ECocos2D alloc] initWithAnimation:@"Sc03"];
         [newAnimation setPosition:ccp(0, 0)];
         [self addChild:newAnimation];
         
@@ -114,7 +114,7 @@
 {
     if (!newAnimation.isAnimationPlaying)
     {
-        [newAnimation playFullAnimation:1.0f];
+        [newAnimation playFullAnimation:1.2f];
     }
     return NO;
 }
