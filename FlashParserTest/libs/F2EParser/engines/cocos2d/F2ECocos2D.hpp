@@ -35,6 +35,8 @@
 -(void)loadSprites;
 -(void)loadAnimations;
 
+-(BOOL)isHD;
+
 -(void)playFullAnimation:(float)time;
 -(void)playFullAnimationWithReverse:(float)time;
 -(void)playAnimation:(NSString *)animationName time:(float)time;

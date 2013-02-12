@@ -8,6 +8,8 @@
 
 #import "F2ECocos2D.hpp"
 
+#define HD_PREFIX   @"-ipadhd"
+
 @implementation F2ECocos2D
 
 @synthesize isAnimationPlaying;
@@ -32,6 +34,17 @@
         [self scheduleUpdate];
     }
     return self;
+}
+
+-(BOOL)isHD
+{
+    if ([[UIScreen mainScreen] respondsToSelector:@selector(scale)])
+    {
+        if ([[UIScreen mainScreen] scale] > 1.0)
+            return YES;
+    }
+    
+    return NO;
 }
 
 -(NSString *)makePathForFile:(NSString *)fileName
@@ -63,8 +76,19 @@
     BOOL sheetFlag = NO;
     NSFileManager *fileManager = [NSFileManager defaultManager];
     
-    NSString *sheetFile = [NSString stringWithFormat:@"%@_Sheet.png", name];
-    NSString *plistFile = [NSString stringWithFormat:@"%@_Sheet.plist", name];
+    NSString *sheetFile;
+    NSString *plistFile;
+    
+    if ([self isHD])
+    {
+        sheetFile = [NSString stringWithFormat:@"%@_Sheet-ipadhd.png", name];
+        plistFile = [NSString stringWithFormat:@"%@_Sheet-ipadhd.plist", name];
+    }
+    else
+    {
+        sheetFile = [NSString stringWithFormat:@"%@_Sheet.png", name];
+        plistFile = [NSString stringWithFormat:@"%@_Sheet.plist", name];
+    }
     
     NSString *path1 = [self makePathForFile:sheetFile];
     NSString *path2 = [self makePathForFile:plistFile];
@@ -88,7 +112,12 @@
     {
         F2ESprite spriteInfo = *it;
         
-        NSString *frameName = [NSString stringWithFormat:@"%s.png", spriteInfo.name.c_str()];
+        NSString *frameName;
+        
+        if (!sheetFlag && [self isHD])
+            frameName = [NSString stringWithFormat:@"%s%@.png", spriteInfo.name.c_str(), HD_PREFIX];
+        else
+            frameName = [NSString stringWithFormat:@"%s.png", spriteInfo.name.c_str()];
         
         CCSprite *sprite;
         if (sheetFlag)
