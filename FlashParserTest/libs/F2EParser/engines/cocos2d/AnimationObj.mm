@@ -12,5 +12,6 @@
 
 @synthesize part;
 @synthesize time;
+@synthesize isReversed;
 
 @end

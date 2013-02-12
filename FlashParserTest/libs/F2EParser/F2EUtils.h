@@ -54,6 +54,7 @@ typedef struct _F2EPart
 
 typedef struct _F2EAnimationPart
 {
+    bool isReversed;
     std::string animationName;
     unsigned int frameCount;
     std::vector<F2EPart> parts;

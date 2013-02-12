@@ -27,7 +27,7 @@
         
         frameCount = 0;
         isAnimationPlaying = NO;
-        currentAnimationPart = NULL;
+        currentAnimationObj = nil;
         
         [self scheduleUpdate];
     }
@@ -164,12 +164,35 @@
     }
 }
 
--(void)playAnimationPart:(F2EAnimationPart *)part time:(float)time
+-(void)playAnimationPart:(animationObj *)obj
 {
-    currentAnimationPart = part;
+    currentAnimationObj = obj;
     frameCount = 0;
-    float dt = time/part->frameCount;
+    float dt = obj.time/obj.part->frameCount;
     [self schedule:@selector(animateFrame) interval:dt];
+}
+
+-(void)playFullAnimationWithReverse:(float)time
+{
+    [self playFullAnimation:time/2.0f];
+    
+    time = time/2.0f;
+    
+    //time per frame
+    float dt = time/animation->framesCount;
+    
+    std::vector<F2EAnimationPart>::reverse_iterator it = animation->animations.rbegin();
+    
+    for (; it != animation->animations.rend(); it++) {
+        animationObj *obj = [[animationObj alloc] init];
+        
+        obj.part = &(*it);
+        obj.time = it->frameCount*dt;
+        obj.isReversed = YES;
+        
+        [animationQueue addObject:obj];
+        [obj release];
+    }
 }
 
 //time - time of full animation cycle
@@ -179,10 +202,13 @@
     float dt = time/animation->framesCount;
     
     std::vector<F2EAnimationPart>::iterator it = animation->animations.begin();
+    
     for (; it != animation->animations.end(); it++) {
         animationObj *obj = [[animationObj alloc] init];
+
         obj.part = &(*it);
         obj.time = it->frameCount*dt;
+        obj.isReversed = NO;
         
         [animationQueue addObject:obj];
         [obj release];
@@ -195,18 +221,17 @@
     if ([animationQueue count] > 0 && !isAnimationPlaying)
     {
         isAnimationPlaying = YES;
-        animationObj *obj = [animationQueue objectAtIndex:0];
-        [self playAnimationPart:obj.part time:obj.time];
+        [self playAnimationPart:[animationQueue objectAtIndex:0]];
     }
 }
 
 -(void)animateFrame
 {
-    if (frameCount < currentAnimationPart->frameCount)
+    if (frameCount < currentAnimationObj.part->frameCount)
     {
-        std::vector<F2EPart>::iterator it = currentAnimationPart->parts.begin();
+        std::vector<F2EPart>::iterator it = currentAnimationObj.part->parts.begin();
         
-        for (; it != currentAnimationPart->parts.end(); it++) {
+        for (; it != currentAnimationObj.part->parts.end(); it++) {
             for (CCSprite *sprite in sprites) {
                 
                 NSString *partName = [NSString stringWithFormat:@"%s.png", it->partName.c_str()];
@@ -216,7 +241,12 @@
                 {
                     if (frameCount < it->frames.size())
                     {
-                        F2EFrame *frame = &(it->frames[frameCount]);
+                        F2EFrame *frame;
+                        
+                        if (!currentAnimationObj.isReversed)
+                            frame = &(it->frames[frameCount]);
+                        else
+                            frame = &(it->frames[currentAnimationObj.part->frameCount - frameCount - 1]);
                         
                         CGPoint position = ccp(frame->x, -1.0f*frame->y);
                         [sprite setPosition:position];

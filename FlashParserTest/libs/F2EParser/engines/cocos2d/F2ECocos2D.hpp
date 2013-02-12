@@ -15,7 +15,7 @@
 @interface F2ECocos2D : CCNode {
     F2EAnimation *animation;
     
-    F2EAnimationPart *currentAnimationPart;
+    animationObj *currentAnimationObj;
     unsigned int frameCount;
     
     NSString *name;
@@ -36,8 +36,9 @@
 -(void)loadAnimations;
 
 -(void)playFullAnimation:(float)time;
+-(void)playFullAnimationWithReverse:(float)time;
 -(void)playAnimation:(NSString *)animationName time:(float)time;
--(void)playAnimationPart:(F2EAnimationPart *)part time:(float)time;
+-(void)playAnimationPart:(animationObj *)part;
 
 -(void)animateFrame;
 
