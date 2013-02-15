@@ -1,0 +1,13 @@
+<Textures>
+  <TextureSheet name="sc00_ptica_anim">
+    <Texture name="Sc00_ptica_head" width="72" height="154" path="sc00_ptica_anim/Sc00_ptica_head.png" registrationPointX="2.00" registrationPointY="2.00" zIndex="8"/>
+    <Texture name="Sc00_ptica_feather2" width="104" height="36" path="sc00_ptica_anim/Sc00_ptica_feather2.png" registrationPointX="2.00" registrationPointY="2.00" zIndex="7"/>
+    <Texture name="Sc00_ptica_feather1" width="142" height="60" path="sc00_ptica_anim/Sc00_ptica_feather1.png" registrationPointX="2.00" registrationPointY="2.00" zIndex="6"/>
+    <Texture name="Sc00_ptica_body" width="339" height="102" path="sc00_ptica_anim/Sc00_ptica_body.png" registrationPointX="2.00" registrationPointY="2.00" zIndex="5"/>
+    <Texture name="Sc00_ptica_legs" width="411" height="166" path="sc00_ptica_anim/Sc00_ptica_legs.png" registrationPointX="1.00" registrationPointY="2.00" zIndex="4"/>
+    <Texture name="Sc00_ptica_neck" width="57" height="67" path="sc00_ptica_anim/Sc00_ptica_neck.png" registrationPointX="2.00" registrationPointY="2.00" zIndex="3"/>
+    <Texture name="Sc00_ptica_ruby" width="27" height="25" path="sc00_ptica_anim/Sc00_ptica_ruby.png" registrationPointX="2.00" registrationPointY="2.00" zIndex="2"/>
+    <Texture name="Sc00_ptica_beak1" width="68" height="53" path="sc00_ptica_anim/Sc00_ptica_beak1.png" registrationPointX="2.00" registrationPointY="2.00" zIndex="1"/>
+    <Texture name="Sc00_ptica_beak2" width="50" height="57" path="sc00_ptica_anim/Sc00_ptica_beak2.png" registrationPointX="2.00" registrationPointY="2.00"/>
+  </TextureSheet>
+</Textures>

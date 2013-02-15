@@ -124,10 +124,9 @@
             sprite = [CCSprite spriteWithSpriteFrameName:frameName];
         else
             sprite = [CCSprite spriteWithFile:frameName];
-        
-        sprite.userData = malloc(sizeof(unsigned char)*spriteInfo.name.length());
-        strcpy((char *)sprite.userData, spriteInfo.name.c_str());
 
+        sprite.userData = [[NSString stringWithCString:spriteInfo.name.c_str() encoding:NSASCIIStringEncoding] retain];
+        
         CGPoint anchorPoint = ccp(spriteInfo.anchorPointX/spriteInfo.width, 1.0f - spriteInfo.anchorPointY/spriteInfo.height);
         [sprite setAnchorPoint:anchorPoint];
         
@@ -144,11 +143,13 @@
     F2EAnimationPart animationPart = animation->animations[0];
     
     for (CCSprite *sprite in sprites) {
+        
+        NSString *spriteName = [NSString stringWithFormat:@"%@.png", (NSString *) sprite.userData];
+        
         for (std::vector<F2EPart>::iterator it = animationPart.parts.begin(); it != animationPart.parts.end(); it++) {
             F2EPart part = *it;
         
             NSString *partName = [NSString stringWithFormat:@"%s.png", part.partName.c_str()];
-            NSString *spriteName = [NSString stringWithFormat:@"%s.png", (char *) sprite.userData];
             
             if ([partName isEqualToString:spriteName])
             {
@@ -264,7 +265,7 @@
             for (CCSprite *sprite in sprites) {
                 
                 NSString *partName = [NSString stringWithFormat:@"%s.png", it->partName.c_str()];
-                NSString *spriteName = [NSString stringWithFormat:@"%s.png", (char *) sprite.userData];
+                NSString *spriteName = [NSString stringWithFormat:@"%@.png", (NSString *) sprite.userData];
                 
                 if ([partName isEqualToString:spriteName])
                 {
@@ -305,7 +306,7 @@
 -(void)dealloc
 {
     for (CCSprite *sprite in sprites) {
-        free(sprite.userData);
+        [(NSString *)sprite.userData release];
     }
     
     delete animation;

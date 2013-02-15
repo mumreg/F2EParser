@@ -101,8 +101,8 @@
 		// Add the menu to the layer
 //		[self addChild:menu];
         
-        newAnimation = [[F2ECocos2D alloc] initWithAnimation:@"Sc03"];
-        [newAnimation setPosition:ccp(size.width/2 - 100.0f, size.height/2)];
+        newAnimation = [[F2ECocos2D alloc] initWithAnimation:@"Sc00"];
+        [newAnimation setPosition:ccp(size.width/2, 0.0f)];
         [self addChild:newAnimation];
         
         self.isTouchEnabled = YES;
@@ -114,7 +114,7 @@
 {
     if (!newAnimation.isAnimationPlaying)
     {
-        [newAnimation playFullAnimation:1.2f];
+        [newAnimation playFullAnimation:1.5f];
     }
     return NO;
 }

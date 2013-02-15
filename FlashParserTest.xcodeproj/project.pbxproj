@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		ED0ED0E816B11D9F00AF05F7 /* Sc01_Anim.xml in Resources */ = {isa = PBXBuildFile; fileRef = ED0ED0DF16B11D9F00AF05F7 /* Sc01_Anim.xml */; };
 		ED0ED0ED16B1271A00AF05F7 /* Sc01_Sheet.xml in Resources */ = {isa = PBXBuildFile; fileRef = ED0ED0EC16B1271A00AF05F7 /* Sc01_Sheet.xml */; };
+		ED32003516CE2FF40006ADBA /* Sc00_Sheet-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED32003016CE2FF40006ADBA /* Sc00_Sheet-ipadhd.plist */; };
+		ED32003616CE2FF40006ADBA /* Sc00_Sheet-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = ED32003116CE2FF40006ADBA /* Sc00_Sheet-ipadhd.png */; };
+		ED32003716CE2FF40006ADBA /* Sc00_Sheet.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED32003316CE2FF40006ADBA /* Sc00_Sheet.plist */; };
+		ED32003816CE2FF40006ADBA /* Sc00_Sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = ED32003416CE2FF40006ADBA /* Sc00_Sheet.png */; };
 		ED406F9716B7FBD400D16081 /* Sc01_arm1.png in Resources */ = {isa = PBXBuildFile; fileRef = ED406F8716B7FBD400D16081 /* Sc01_arm1.png */; };
 		ED406F9816B7FBD400D16081 /* Sc01_arm2.png in Resources */ = {isa = PBXBuildFile; fileRef = ED406F8816B7FBD400D16081 /* Sc01_arm2.png */; };
 		ED406F9916B7FBD400D16081 /* Sc01_arm3.png in Resources */ = {isa = PBXBuildFile; fileRef = ED406F8916B7FBD400D16081 /* Sc01_arm3.png */; };
@@ -38,6 +42,8 @@
 		ED52C5FC16C940D40030831E /* Sc03_Sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = ED52C5F816C940D40030831E /* Sc03_Sheet.png */; };
 		ED52C5FF16C941060030831E /* Sc03_Anim.xml in Resources */ = {isa = PBXBuildFile; fileRef = ED52C5FD16C941060030831E /* Sc03_Anim.xml */; };
 		ED52C60016C941060030831E /* Sc03_Sheet.xml in Resources */ = {isa = PBXBuildFile; fileRef = ED52C5FE16C941060030831E /* Sc03_Sheet.xml */; };
+		ED7E3FD416CD0C3D00C959E6 /* Sc00_Anim.xml in Resources */ = {isa = PBXBuildFile; fileRef = ED7E3FC916CD0C3D00C959E6 /* Sc00_Anim.xml */; };
+		ED7E3FD516CD0C3D00C959E6 /* Sc00_Sheet.xml in Resources */ = {isa = PBXBuildFile; fileRef = ED7E3FCA16CD0C3D00C959E6 /* Sc00_Sheet.xml */; };
 		ED93C98516B2B336002D0438 /* HelloWorldLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = ED93C98416B2B336002D0438 /* HelloWorldLayer.mm */; };
 		EDBF73DB16AFECEA00F99767 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBF73DA16AFECEA00F99767 /* QuartzCore.framework */; };
 		EDBF73DD16AFECEA00F99767 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBF73DC16AFECEA00F99767 /* OpenGLES.framework */; };
@@ -165,8 +171,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ED0ED0DF16B11D9F00AF05F7 /* Sc01_Anim.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Sc01_Anim.xml; path = Resources/Sc01_Anim.xml; sourceTree = "<group>"; };
-		ED0ED0EC16B1271A00AF05F7 /* Sc01_Sheet.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Sc01_Sheet.xml; path = Resources/Sc01_Sheet.xml; sourceTree = "<group>"; };
+		ED0ED0DF16B11D9F00AF05F7 /* Sc01_Anim.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Sc01_Anim.xml; path = ../Sc01_Anim.xml; sourceTree = "<group>"; };
+		ED0ED0EC16B1271A00AF05F7 /* Sc01_Sheet.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Sc01_Sheet.xml; path = ../Sc01_Sheet.xml; sourceTree = "<group>"; };
+		ED32003016CE2FF40006ADBA /* Sc00_Sheet-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Sc00_Sheet-ipadhd.plist"; sourceTree = "<group>"; };
+		ED32003116CE2FF40006ADBA /* Sc00_Sheet-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sc00_Sheet-ipadhd.png"; sourceTree = "<group>"; };
+		ED32003316CE2FF40006ADBA /* Sc00_Sheet.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Sc00_Sheet.plist; sourceTree = "<group>"; };
+		ED32003416CE2FF40006ADBA /* Sc00_Sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sc00_Sheet.png; sourceTree = "<group>"; };
 		ED406F8716B7FBD400D16081 /* Sc01_arm1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sc01_arm1.png; sourceTree = "<group>"; };
 		ED406F8816B7FBD400D16081 /* Sc01_arm2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sc01_arm2.png; sourceTree = "<group>"; };
 		ED406F8916B7FBD400D16081 /* Sc01_arm3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sc01_arm3.png; sourceTree = "<group>"; };
@@ -206,6 +216,8 @@
 		ED52C5F816C940D40030831E /* Sc03_Sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sc03_Sheet.png; sourceTree = "<group>"; };
 		ED52C5FD16C941060030831E /* Sc03_Anim.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Sc03_Anim.xml; sourceTree = "<group>"; };
 		ED52C5FE16C941060030831E /* Sc03_Sheet.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Sc03_Sheet.xml; sourceTree = "<group>"; };
+		ED7E3FC916CD0C3D00C959E6 /* Sc00_Anim.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Sc00_Anim.xml; path = Resources/Sc00_Anim.xml; sourceTree = "<group>"; };
+		ED7E3FCA16CD0C3D00C959E6 /* Sc00_Sheet.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Sc00_Sheet.xml; path = Resources/Sc00_Sheet.xml; sourceTree = "<group>"; };
 		ED93C98416B2B336002D0438 /* HelloWorldLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HelloWorldLayer.mm; sourceTree = "<group>"; };
 		EDBF73D616AFECEA00F99767 /* FlashParserTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashParserTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDBF73DA16AFECEA00F99767 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -490,6 +502,8 @@
 		ED0ED0D716B11D9F00AF05F7 /* anim_sc01 */ = {
 			isa = PBXGroup;
 			children = (
+				ED0ED0EC16B1271A00AF05F7 /* Sc01_Sheet.xml */,
+				ED0ED0DF16B11D9F00AF05F7 /* Sc01_Anim.xml */,
 				ED406F7D16B7FBD400D16081 /* HD */,
 				ED406F8616B7FBD400D16081 /* SD */,
 			);
@@ -507,6 +521,24 @@
 			);
 			name = anim_sc03;
 			path = Resources/anim_sc03;
+			sourceTree = "<group>";
+		};
+		ED32002F16CE2FF40006ADBA /* HD */ = {
+			isa = PBXGroup;
+			children = (
+				ED32003016CE2FF40006ADBA /* Sc00_Sheet-ipadhd.plist */,
+				ED32003116CE2FF40006ADBA /* Sc00_Sheet-ipadhd.png */,
+			);
+			path = HD;
+			sourceTree = "<group>";
+		};
+		ED32003216CE2FF40006ADBA /* SD */ = {
+			isa = PBXGroup;
+			children = (
+				ED32003316CE2FF40006ADBA /* Sc00_Sheet.plist */,
+				ED32003416CE2FF40006ADBA /* Sc00_Sheet.png */,
+			);
+			path = SD;
 			sourceTree = "<group>";
 		};
 		ED406F7D16B7FBD400D16081 /* HD */ = {
@@ -606,6 +638,16 @@
 			path = SD;
 			sourceTree = "<group>";
 		};
+		ED7DAE2D16CD1422009C0463 /* anim_sc00 */ = {
+			isa = PBXGroup;
+			children = (
+				ED32002F16CE2FF40006ADBA /* HD */,
+				ED32003216CE2FF40006ADBA /* SD */,
+			);
+			name = anim_sc00;
+			path = Resources/anim_sc00;
+			sourceTree = "<group>";
+		};
 		EDBF73CB16AFECEA00F99767 = {
 			isa = PBXGroup;
 			children = (
@@ -656,10 +698,11 @@
 		EDBF73ED16AFECEA00F99767 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				ED7DAE2D16CD1422009C0463 /* anim_sc00 */,
+				ED7E3FC916CD0C3D00C959E6 /* Sc00_Anim.xml */,
+				ED7E3FCA16CD0C3D00C959E6 /* Sc00_Sheet.xml */,
 				ED0F0C9016C8D28B003DA1EA /* anim_sc03 */,
 				ED0ED0D716B11D9F00AF05F7 /* anim_sc01 */,
-				ED0ED0EC16B1271A00AF05F7 /* Sc01_Sheet.xml */,
-				ED0ED0DF16B11D9F00AF05F7 /* Sc01_Anim.xml */,
 				EDBF73EE16AFECEA00F99767 /* Default.png */,
 				EDBF73F016AFECEA00F99767 /* fps_images.png */,
 				EDBF73F216AFECEA00F99767 /* fps_images-hd.png */,
@@ -1046,7 +1089,7 @@
 		EDBF73CD16AFECEA00F99767 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = EDBF73D016AFECEA00F99767 /* Build configuration list for PBXProject "FlashParserTest" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1108,6 +1151,12 @@
 				ED52C5FC16C940D40030831E /* Sc03_Sheet.png in Resources */,
 				ED52C5FF16C941060030831E /* Sc03_Anim.xml in Resources */,
 				ED52C60016C941060030831E /* Sc03_Sheet.xml in Resources */,
+				ED7E3FD416CD0C3D00C959E6 /* Sc00_Anim.xml in Resources */,
+				ED7E3FD516CD0C3D00C959E6 /* Sc00_Sheet.xml in Resources */,
+				ED32003516CE2FF40006ADBA /* Sc00_Sheet-ipadhd.plist in Resources */,
+				ED32003616CE2FF40006ADBA /* Sc00_Sheet-ipadhd.png in Resources */,
+				ED32003716CE2FF40006ADBA /* Sc00_Sheet.plist in Resources */,
+				ED32003816CE2FF40006ADBA /* Sc00_Sheet.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1236,6 +1285,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1246,6 +1299,7 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				SDKROOT = iphoneos;
@@ -1257,6 +1311,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1265,6 +1323,7 @@
 				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				SDKROOT = iphoneos;
