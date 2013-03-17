@@ -1,7 +1,7 @@
 F2EParser
 =========
 
-Parser for exporting animation from flash (xml from grapefrukt exporter) to your game engine.
+Parser for exporting procedure animation from flash (xml from grapefrukt exporter) to your game engine.
 
 For now I've just made a class for cocos2d (F2ECocos2d).
 
