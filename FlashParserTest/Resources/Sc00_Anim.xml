@@ -14,9 +14,9 @@
     </Part>
     <Part name="Sc00_ptica_body">
       <Frame x="106.85" y="-238.65" index="0"/>
-      <Frame x="106.85" y="-238.15" index="1"/>
-      <Frame x="106.85" y="-237.65" index="2"/>
-      <Frame x="106.85" y="-237.15" index="3"/>
+      <Frame x="106.85" y="-238.65" index="1"/>
+      <Frame x="106.85" y="-238.65" index="2"/>
+      <Frame x="106.85" y="-238.65" index="3"/>
     </Part>
     <Part name="Sc00_ptica_feather1">
       <Frame x="147.90" y="-347.15" rotation="-8.807" index="0"/>
@@ -63,13 +63,13 @@
     </Part>
     <Part name="Sc00_ptica_beak2">
       <Frame x="101.75" y="-248.20" rotation="-0.052" index="0"/>
-      <Frame x="101.75" y="-268.90" scaleX="0.999" scaleY="0.999" rotation="16.037" index="1"/>
-      <Frame x="105.20" y="-288.70" scaleX="0.999" scaleY="0.999" rotation="32.341" index="2"/>
+      <Frame x="101.75" y="-268.85" scaleX="0.999" scaleY="0.999" rotation="16.037" index="1"/>
+      <Frame x="105.20" y="-288.65" scaleX="0.999" scaleY="0.999" rotation="32.341" index="2"/>
     </Part>
     <Part name="Sc00_ptica_body">
-      <Frame x="106.85" y="-236.65" index="0"/>
-      <Frame x="106.85" y="-236.65" index="1"/>
-      <Frame x="106.85" y="-236.65" index="2"/>
+      <Frame x="106.85" y="-238.65" index="0"/>
+      <Frame x="106.85" y="-238.65" index="1"/>
+      <Frame x="106.85" y="-238.65" index="2"/>
     </Part>
     <Part name="Sc00_ptica_feather1">
       <Frame x="128.00" y="-335.35" scaleX="0.999" scaleY="0.999" rotation="-18.032" index="0"/>
@@ -83,8 +83,8 @@
     </Part>
     <Part name="Sc00_ptica_head">
       <Frame x="90.15" y="-377.20" scaleX="0.999" scaleY="0.999" rotation="-14.822" index="0"/>
-      <Frame x="136.80" y="-399.00" rotation="6.260" index="1"/>
-      <Frame x="186.30" y="-399.95" scaleX="0.999" scaleY="0.999" rotation="27.553" index="2"/>
+      <Frame x="136.80" y="-398.95" scaleX="0.999" scaleY="0.999" rotation="6.302" index="1"/>
+      <Frame x="186.25" y="-399.90" scaleX="0.998" scaleY="0.998" rotation="27.824" index="2"/>
     </Part>
     <Part name="Sc00_ptica_legs">
       <Frame y="-151.00" index="0"/>
@@ -93,8 +93,8 @@
     </Part>
     <Part name="Sc00_ptica_neck">
       <Frame x="134.85" y="-276.50" index="0"/>
-      <Frame x="134.85" y="-276.50" index="1"/>
-      <Frame x="134.85" y="-276.50" index="2"/>
+      <Frame x="134.85" y="-277.50" index="1"/>
+      <Frame x="134.85" y="-278.50" index="2"/>
     </Part>
     <Part name="Sc00_ptica_ruby">
       <Frame x="86.20" y="-214.50" scaleX="0.999" scaleY="0.999" rotation="-29.814" index="0"/>
@@ -112,17 +112,17 @@
     </Part>
     <Part name="Sc00_ptica_beak2">
       <Frame x="111.60" y="-306.70" scaleX="0.998" scaleY="0.998" rotation="48.658" index="0"/>
-      <Frame x="118.75" y="-311.40" rotation="56.249" index="1"/>
-      <Frame x="126.45" y="-315.45" scaleX="0.999" scaleY="0.999" rotation="63.911" index="2"/>
-      <Frame x="134.35" y="-318.80" scaleX="0.999" scaleY="0.999" rotation="71.436" index="3"/>
-      <Frame x="142.35" y="-321.40" scaleX="0.999" scaleY="0.999" rotation="78.959" index="4"/>
+      <Frame x="118.75" y="-311.35" rotation="56.249" index="1"/>
+      <Frame x="126.40" y="-315.40" scaleX="0.999" scaleY="0.999" rotation="63.911" index="2"/>
+      <Frame x="134.30" y="-318.75" scaleX="0.999" scaleY="0.999" rotation="71.436" index="3"/>
+      <Frame x="142.30" y="-321.35" scaleX="0.999" scaleY="0.999" rotation="78.959" index="4"/>
     </Part>
     <Part name="Sc00_ptica_body">
-      <Frame x="106.85" y="-236.65" index="0"/>
-      <Frame x="109.05" y="-238.15" rotation="1.540" index="1"/>
-      <Frame x="111.50" y="-239.75" rotation="3.270" index="2"/>
-      <Frame x="113.75" y="-241.20" rotation="4.811" index="3"/>
-      <Frame x="116.40" y="-242.65" rotation="6.542" index="4"/>
+      <Frame x="106.85" y="-238.65" index="0"/>
+      <Frame x="109.05" y="-240.15" rotation="1.540" index="1"/>
+      <Frame x="111.50" y="-241.75" rotation="3.270" index="2"/>
+      <Frame x="113.75" y="-243.20" rotation="4.811" index="3"/>
+      <Frame x="116.40" y="-244.65" rotation="6.542" index="4"/>
     </Part>
     <Part name="Sc00_ptica_feather1">
       <Frame x="192.05" y="-331.75" scaleX="0.999" scaleY="0.998" rotation="23.809" index="0"/>
@@ -139,11 +139,11 @@
       <Frame x="200.25" y="-289.15" scaleY="0.996" rotation="55.417" index="4"/>
     </Part>
     <Part name="Sc00_ptica_head">
-      <Frame x="230.45" y="-380.75" scaleX="0.998" scaleY="0.998" rotation="48.877" index="0"/>
-      <Frame x="242.00" y="-374.25" scaleX="0.998" scaleY="0.998" rotation="53.893" index="1"/>
-      <Frame x="252.80" y="-366.90" scaleX="0.999" scaleY="0.999" rotation="58.905" index="2"/>
-      <Frame x="262.65" y="-358.80" scaleX="0.999" scaleY="0.999" rotation="63.919" index="3"/>
-      <Frame x="271.75" y="-349.95" scaleX="0.999" scaleY="0.999" rotation="68.928" index="4"/>
+      <Frame x="230.50" y="-380.75" scaleX="0.997" scaleY="0.997" rotation="49.378" index="0"/>
+      <Frame x="241.90" y="-374.20" scaleX="0.997" scaleY="0.997" rotation="54.197" index="1"/>
+      <Frame x="252.75" y="-366.85" scaleX="0.997" scaleY="0.997" rotation="59.200" index="2"/>
+      <Frame x="262.65" y="-358.80" scaleX="0.997" scaleY="0.997" rotation="64.206" index="3"/>
+      <Frame x="271.70" y="-349.90" scaleX="0.998" scaleY="0.998" rotation="69.205" index="4"/>
     </Part>
     <Part name="Sc00_ptica_legs">
       <Frame y="-151.00" index="0"/>
@@ -153,11 +153,11 @@
       <Frame y="-151.00" index="4"/>
     </Part>
     <Part name="Sc00_ptica_neck">
-      <Frame x="134.85" y="-276.50" index="0"/>
-      <Frame x="136.40" y="-276.70" scaleY="1.001" index="1"/>
-      <Frame x="138.00" y="-276.90" scaleY="1.001" index="2"/>
-      <Frame x="139.55" y="-277.00" scaleY="1.002" index="3"/>
-      <Frame x="140.95" y="-277.15" scaleY="1.003" index="4"/>
+      <Frame x="134.85" y="-279.50" index="0"/>
+      <Frame x="136.75" y="-279.75" scaleX="1.011" scaleY="1.011" rotation="0.527" index="1"/>
+      <Frame x="138.65" y="-280.00" scaleX="1.022" scaleY="1.022" rotation="1.058" index="2"/>
+      <Frame x="140.75" y="-280.35" scaleX="1.033" scaleY="1.033" rotation="1.776" index="3"/>
+      <Frame x="142.75" y="-280.55" scaleX="1.044" scaleY="1.044" rotation="2.305" index="4"/>
     </Part>
     <Part name="Sc00_ptica_ruby">
       <Frame x="76.85" y="-297.65" scaleX="0.999" scaleY="1.150" rotation="18.799" index="0"/>
@@ -173,12 +173,12 @@
       <Frame x="171.25" y="-338.30" rotation="93.776" index="1"/>
     </Part>
     <Part name="Sc00_ptica_beak2">
-      <Frame x="150.70" y="-323.35" rotation="86.475" index="0"/>
-      <Frame x="153.80" y="-322.75" rotation="87.483" index="1"/>
+      <Frame x="150.65" y="-323.30" rotation="86.475" index="0"/>
+      <Frame x="153.75" y="-322.70" rotation="87.483" index="1"/>
     </Part>
     <Part name="Sc00_ptica_body">
-      <Frame x="119.05" y="-244.10" rotation="8.274" index="0"/>
-      <Frame x="121.35" y="-245.25" scaleX="0.999" scaleY="0.999" rotation="9.815" index="1"/>
+      <Frame x="119.05" y="-246.10" rotation="8.274" index="0"/>
+      <Frame x="121.35" y="-247.25" scaleX="0.999" scaleY="0.999" rotation="9.815" index="1"/>
     </Part>
     <Part name="Sc00_ptica_feather1">
       <Frame x="221.60" y="-311.05" scaleY="0.996" rotation="49.932" index="0"/>
@@ -189,16 +189,16 @@
       <Frame x="204.40" y="-283.55" scaleX="1.002" scaleY="0.997" rotation="61.750" index="1"/>
     </Part>
     <Part name="Sc00_ptica_head">
-      <Frame x="279.75" y="-340.35" scaleX="0.999" scaleY="0.999" rotation="73.938" index="0"/>
-      <Frame x="286.70" y="-330.30" scaleX="0.999" scaleY="0.999" rotation="78.943" index="1"/>
+      <Frame x="279.75" y="-340.30" scaleX="0.998" scaleY="0.998" rotation="74.207" index="0"/>
+      <Frame x="286.80" y="-330.25" scaleX="0.998" scaleY="0.998" rotation="79.203" index="1"/>
     </Part>
     <Part name="Sc00_ptica_legs">
       <Frame y="-151.00" index="0"/>
       <Frame y="-151.00" index="1"/>
     </Part>
     <Part name="Sc00_ptica_neck">
-      <Frame x="142.50" y="-277.30" scaleY="1.003" index="0"/>
-      <Frame x="144.10" y="-277.45" scaleY="1.004" index="1"/>
+      <Frame x="144.90" y="-280.85" scaleX="1.055" scaleY="1.055" rotation="3.023" index="0"/>
+      <Frame x="146.05" y="-281.20" scaleX="1.066" scaleY="1.066" rotation="3.554" index="1"/>
     </Part>
     <Part name="Sc00_ptica_ruby">
       <Frame x="122.70" y="-455.45" scaleX="0.997" scaleY="1.400" rotation="61.702" index="0"/>
@@ -211,12 +211,12 @@
       <Frame x="190.85" y="-330.95" scaleX="0.999" scaleY="0.999" rotation="108.774" index="1"/>
     </Part>
     <Part name="Sc00_ptica_beak2">
-      <Frame x="156.95" y="-322.10" rotation="88.490" index="0"/>
-      <Frame x="160.00" y="-321.50" rotation="89.497" index="1"/>
+      <Frame x="156.90" y="-322.05" rotation="88.490" index="0"/>
+      <Frame x="159.95" y="-321.45" rotation="89.497" index="1"/>
     </Part>
     <Part name="Sc00_ptica_body">
-      <Frame x="124.05" y="-246.45" scaleX="0.999" scaleY="0.999" rotation="11.548" index="0"/>
-      <Frame x="126.80" y="-247.60" scaleX="0.999" scaleY="0.999" rotation="13.280" index="1"/>
+      <Frame x="124.05" y="-248.45" scaleX="0.999" scaleY="0.999" rotation="11.548" index="0"/>
+      <Frame x="126.80" y="-249.60" scaleX="0.999" scaleY="0.999" rotation="13.280" index="1"/>
     </Part>
     <Part name="Sc00_ptica_feather1">
       <Frame x="228.80" y="-304.25" scaleY="0.995" rotation="55.927" index="0"/>
@@ -227,16 +227,16 @@
       <Frame x="208.30" y="-277.90" scaleX="1.001" scaleY="0.995" rotation="67.685" index="1"/>
     </Part>
     <Part name="Sc00_ptica_head">
-      <Frame x="292.70" y="-319.70" rotation="83.948" index="0"/>
-      <Frame x="297.55" y="-308.75" rotation="88.947" index="1"/>
+      <Frame x="292.70" y="-319.65" scaleX="0.999" scaleY="0.999" rotation="84.198" index="0"/>
+      <Frame x="297.45" y="-308.70" scaleX="0.999" scaleY="0.999" rotation="89.002" index="1"/>
     </Part>
     <Part name="Sc00_ptica_legs">
       <Frame y="-151.00" index="0"/>
       <Frame y="-151.00" index="1"/>
     </Part>
     <Part name="Sc00_ptica_neck">
-      <Frame x="145.50" y="-277.55" scaleY="1.005" index="0"/>
-      <Frame x="147.00" y="-277.70" scaleY="1.006" index="1"/>
+      <Frame x="147.35" y="-281.65" scaleX="1.078" scaleY="1.078" rotation="4.269" index="0"/>
+      <Frame x="148.50" y="-281.95" scaleX="1.089" scaleY="1.089" rotation="4.798" index="1"/>
     </Part>
     <Part name="Sc00_ptica_ruby">
       <Frame x="146.90" y="-481.60" scaleX="0.998" scaleY="1.501" rotation="78.961" index="0"/>
@@ -250,14 +250,14 @@
       <Frame x="215.95" y="-313.35" scaleX="0.998" scaleY="0.998" rotation="131.119" index="2"/>
     </Part>
     <Part name="Sc00_ptica_beak2">
-      <Frame x="163.10" y="-320.80" rotation="90.505" index="0"/>
-      <Frame x="166.25" y="-320.15" rotation="91.513" index="1"/>
-      <Frame x="169.40" y="-319.50" rotation="92.520" index="2"/>
+      <Frame x="163.05" y="-320.75" rotation="90.505" index="0"/>
+      <Frame x="166.20" y="-320.10" rotation="91.513" index="1"/>
+      <Frame x="169.35" y="-319.45" rotation="92.520" index="2"/>
     </Part>
     <Part name="Sc00_ptica_body">
-      <Frame x="129.25" y="-248.60" scaleX="0.999" scaleY="0.999" rotation="14.822" index="0"/>
-      <Frame x="129.25" y="-248.60" scaleX="0.999" scaleY="0.999" rotation="14.822" index="1"/>
-      <Frame x="129.25" y="-248.60" scaleX="0.999" scaleY="0.999" rotation="14.822" index="2"/>
+      <Frame x="129.25" y="-250.60" scaleX="0.999" scaleY="0.999" rotation="14.822" index="0"/>
+      <Frame x="129.60" y="-250.75" scaleX="0.999" scaleY="0.999" rotation="15.050" index="1"/>
+      <Frame x="130.05" y="-250.85" scaleX="0.999" scaleY="0.999" rotation="15.278" index="2"/>
     </Part>
     <Part name="Sc00_ptica_feather1">
       <Frame x="235.40" y="-297.20" scaleX="1.001" scaleY="0.995" rotation="61.729" index="0"/>
@@ -270,9 +270,9 @@
       <Frame x="213.90" y="-269.40" scaleX="1.002" scaleY="0.995" rotation="76.460" index="2"/>
     </Part>
     <Part name="Sc00_ptica_head">
-      <Frame x="301.15" y="-297.95" rotation="93.761" index="0"/>
-      <Frame x="303.55" y="-286.60" rotation="98.762" index="1"/>
-      <Frame x="304.90" y="-275.10" scaleX="0.999" scaleY="0.999" rotation="103.768" index="2"/>
+      <Frame x="301.10" y="-297.95" scaleX="0.999" scaleY="0.999" rotation="93.806" index="0"/>
+      <Frame x="303.50" y="-286.65" scaleX="0.999" scaleY="0.999" rotation="98.798" index="1"/>
+      <Frame x="304.95" y="-275.10" scaleX="0.999" scaleY="0.999" rotation="103.795" index="2"/>
     </Part>
     <Part name="Sc00_ptica_legs">
       <Frame y="-151.00" index="0"/>
@@ -280,9 +280,9 @@
       <Frame y="-151.00" index="2"/>
     </Part>
     <Part name="Sc00_ptica_neck">
-      <Frame x="148.65" y="-277.80" scaleY="1.006" index="0"/>
-      <Frame x="147.85" y="-277.75" scaleY="1.007" index="1"/>
-      <Frame x="147.30" y="-277.75" scaleY="1.008" index="2"/>
+      <Frame x="149.85" y="-282.40" scaleX="1.100" scaleY="1.100" rotation="5.516" index="0"/>
+      <Frame x="151.00" y="-282.65" scaleX="1.111" scaleY="1.111" rotation="6.047" index="1"/>
+      <Frame x="152.50" y="-283.05" scaleX="1.122" scaleY="1.122" rotation="6.765" index="2"/>
     </Part>
     <Part name="Sc00_ptica_ruby">
       <Frame x="159.25" y="-453.00" scaleX="0.998" scaleY="0.998" rotation="48.877" index="0"/>
@@ -296,12 +296,12 @@
       <Frame x="222.80" y="-306.05" scaleX="0.998" scaleY="0.998" rotation="138.629" index="1"/>
     </Part>
     <Part name="Sc00_ptica_beak2">
-      <Frame x="172.45" y="-318.85" rotation="93.528" index="0"/>
-      <Frame x="172.45" y="-318.85" rotation="93.528" index="1"/>
+      <Frame x="172.40" y="-318.80" rotation="93.528" index="0"/>
+      <Frame x="172.40" y="-318.80" rotation="93.528" index="1"/>
     </Part>
     <Part name="Sc00_ptica_body">
-      <Frame x="129.25" y="-248.60" scaleX="0.999" scaleY="0.999" rotation="14.822" index="0"/>
-      <Frame x="129.25" y="-248.60" scaleX="0.999" scaleY="0.999" rotation="14.822" index="1"/>
+      <Frame x="130.00" y="-250.95" scaleX="0.999" scaleY="0.999" rotation="15.318" index="0"/>
+      <Frame x="130.40" y="-251.05" scaleX="0.999" scaleY="0.999" rotation="15.546" index="1"/>
     </Part>
     <Part name="Sc00_ptica_feather1">
       <Frame x="244.50" y="-286.05" scaleX="1.002" scaleY="0.994" rotation="70.715" index="0"/>
@@ -312,16 +312,16 @@
       <Frame x="217.45" y="-263.65" scaleX="1.002" scaleY="0.994" rotation="82.242" index="1"/>
     </Part>
     <Part name="Sc00_ptica_head">
-      <Frame x="305.15" y="-263.65" scaleX="0.999" scaleY="0.999" rotation="108.774" index="0"/>
-      <Frame x="305.15" y="-263.65" scaleX="0.999" scaleY="0.999" rotation="108.774" index="1"/>
+      <Frame x="305.05" y="-263.60" scaleX="0.999" scaleY="0.999" rotation="108.793" index="0"/>
+      <Frame x="305.15" y="-263.60" scaleX="0.999" scaleY="0.999" rotation="108.782" index="1"/>
     </Part>
     <Part name="Sc00_ptica_legs">
       <Frame y="-151.00" index="0"/>
       <Frame y="-151.00" index="1"/>
     </Part>
     <Part name="Sc00_ptica_neck">
-      <Frame x="146.75" y="-277.70" scaleY="1.008" index="0"/>
-      <Frame x="145.90" y="-277.65" scaleY="1.009" index="1"/>
+      <Frame x="153.65" y="-283.35" scaleX="1.133" scaleY="1.133" rotation="7.296" index="0"/>
+      <Frame x="155.15" y="-283.75" scaleX="1.144" scaleY="1.144" rotation="8.011" index="1"/>
     </Part>
     <Part name="Sc00_ptica_ruby">
       <Frame x="169.65" y="-351.10" scaleX="0.998" scaleY="0.998" rotation="48.877" index="0"/>
@@ -335,14 +335,14 @@
       <Frame x="208.80" y="-316.35" scaleX="0.999" scaleY="0.999" rotation="118.572" index="2"/>
     </Part>
     <Part name="Sc00_ptica_beak2">
-      <Frame x="172.45" y="-318.85" rotation="93.528" index="0"/>
-      <Frame x="180.20" y="-314.70" scaleX="0.999" scaleY="0.999" rotation="103.530" index="1"/>
-      <Frame x="187.60" y="-309.20" scaleX="0.999" scaleY="0.999" rotation="113.544" index="2"/>
+      <Frame x="172.40" y="-318.80" rotation="93.528" index="0"/>
+      <Frame x="180.15" y="-314.65" scaleX="0.999" scaleY="0.999" rotation="103.530" index="1"/>
+      <Frame x="187.50" y="-309.15" scaleX="0.999" scaleY="0.999" rotation="113.544" index="2"/>
     </Part>
     <Part name="Sc00_ptica_body">
-      <Frame x="129.25" y="-248.60" scaleX="0.999" scaleY="0.999" rotation="14.822" index="0"/>
-      <Frame x="131.80" y="-242.75" scaleX="0.999" scaleY="0.973" rotation="14.823" index="1"/>
-      <Frame x="134.30" y="-236.70" scaleX="0.998" scaleY="0.947" rotation="14.823" index="2"/>
+      <Frame x="130.75" y="-251.20" scaleX="0.999" scaleY="0.999" rotation="15.774" index="0"/>
+      <Frame x="131.60" y="-247.20" scaleX="0.999" scaleY="0.999" rotation="16.269" index="1"/>
+      <Frame x="132.40" y="-243.10" scaleX="0.999" scaleY="0.999" rotation="16.768" index="2"/>
     </Part>
     <Part name="Sc00_ptica_feather1">
       <Frame x="249.80" y="-278.40" scaleX="1.002" scaleY="0.994" rotation="76.700" index="0"/>
@@ -365,9 +365,9 @@
       <Frame y="-151.00" index="2"/>
     </Part>
     <Part name="Sc00_ptica_neck">
-      <Frame x="145.35" y="-277.65" scaleY="1.010" index="0"/>
-      <Frame x="145.35" y="-272.00" scaleY="1.010" index="1"/>
-      <Frame x="145.35" y="-266.35" scaleY="1.010" index="2"/>
+      <Frame x="156.40" y="-284.00" scaleX="1.155" scaleY="1.155" rotation="8.541" index="0"/>
+      <Frame x="152.15" y="-277.40" scaleX="1.166" scaleY="1.166" rotation="4.514" index="1"/>
+      <Frame x="147.60" y="-270.30" scaleX="1.178" scaleY="1.178" rotation="0.300" index="2"/>
     </Part>
     <Part name="Sc00_ptica_ruby">
       <Frame x="176.65" y="-283.20" scaleX="0.998" scaleY="0.998" rotation="48.877" index="0"/>
@@ -387,24 +387,24 @@
       <Frame x="64.20" y="-290.40" rotation="16.749" index="7"/>
     </Part>
     <Part name="Sc00_ptica_beak2">
-      <Frame x="194.35" y="-302.55" scaleX="0.999" scaleY="0.999" rotation="123.563" index="0"/>
-      <Frame x="177.85" y="-306.85" scaleX="0.999" scaleY="0.999" rotation="110.308" index="1"/>
-      <Frame x="160.80" y="-308.95" rotation="97.259" index="2"/>
-      <Frame x="143.45" y="-308.85" rotation="84.222" index="3"/>
-      <Frame x="126.35" y="-306.35" scaleX="0.999" scaleY="0.999" rotation="71.171" index="4"/>
-      <Frame x="109.80" y="-301.55" scaleX="0.999" scaleY="0.999" rotation="57.917" index="5"/>
-      <Frame x="94.65" y="-294.95" scaleX="0.998" scaleY="0.998" rotation="44.846" index="6"/>
-      <Frame x="81.05" y="-286.55" scaleX="0.999" scaleY="0.999" rotation="31.584" index="7"/>
+      <Frame x="194.30" y="-302.50" scaleX="0.999" scaleY="0.999" rotation="123.563" index="0"/>
+      <Frame x="177.80" y="-306.80" scaleX="0.999" scaleY="0.999" rotation="110.308" index="1"/>
+      <Frame x="160.75" y="-308.90" rotation="97.259" index="2"/>
+      <Frame x="143.40" y="-308.80" rotation="84.222" index="3"/>
+      <Frame x="126.30" y="-306.30" scaleX="0.999" scaleY="0.999" rotation="71.171" index="4"/>
+      <Frame x="109.75" y="-301.55" scaleX="0.999" scaleY="0.999" rotation="57.917" index="5"/>
+      <Frame x="94.65" y="-294.90" scaleX="0.998" scaleY="0.998" rotation="44.846" index="6"/>
+      <Frame x="81.05" y="-286.50" scaleX="0.999" scaleY="0.999" rotation="31.584" index="7"/>
     </Part>
     <Part name="Sc00_ptica_body">
-      <Frame x="136.65" y="-230.60" scaleX="0.998" scaleY="0.921" rotation="14.821" index="0"/>
-      <Frame x="133.50" y="-232.15" scaleX="0.998" scaleY="0.931" rotation="13.311" index="1"/>
-      <Frame x="130.60" y="-233.45" scaleX="0.998" scaleY="0.940" rotation="11.796" index="2"/>
-      <Frame x="127.25" y="-234.75" scaleX="0.998" scaleY="0.950" rotation="10.281" index="3"/>
-      <Frame x="124.00" y="-236.00" scaleX="0.999" scaleY="0.960" rotation="8.767" index="4"/>
-      <Frame x="120.90" y="-236.95" scaleX="0.999" scaleY="0.970" rotation="7.255" index="5"/>
-      <Frame x="117.15" y="-237.75" scaleX="0.999" scaleY="0.980" rotation="5.554" index="6"/>
-      <Frame x="113.70" y="-238.50" scaleY="0.990" rotation="4.041" index="7"/>
+      <Frame x="132.90" y="-238.90" scaleX="0.999" scaleY="0.999" rotation="17.076" index="0"/>
+      <Frame x="130.00" y="-239.00" scaleX="0.999" scaleY="0.999" rotation="15.280" index="1"/>
+      <Frame x="126.85" y="-238.90" scaleX="0.999" scaleY="0.999" rotation="13.300" index="2"/>
+      <Frame x="123.70" y="-238.60" scaleX="0.999" scaleY="0.999" rotation="11.317" index="3"/>
+      <Frame x="120.85" y="-238.35" scaleX="0.999" scaleY="0.999" rotation="9.522" index="4"/>
+      <Frame x="117.90" y="-237.95" rotation="7.541" index="5"/>
+      <Frame x="114.90" y="-237.30" rotation="5.559" index="6"/>
+      <Frame x="112.30" y="-236.90" rotation="3.768" index="7"/>
     </Part>
     <Part name="Sc00_ptica_feather1">
       <Frame x="256.75" y="-252.05" scaleX="1.003" scaleY="0.993" rotation="85.483" index="0"/>
@@ -447,14 +447,14 @@
       <Frame y="-151.00" index="7"/>
     </Part>
     <Part name="Sc00_ptica_neck">
-      <Frame x="145.35" y="-260.65" scaleY="1.010" index="0"/>
-      <Frame x="138.60" y="-262.75" scaleY="1.028" rotation="-1.781" index="1"/>
-      <Frame x="131.95" y="-264.25" scaleY="1.047" rotation="-3.560" index="2"/>
-      <Frame x="124.70" y="-265.25" scaleX="0.999" scaleY="1.065" rotation="-5.531" index="3"/>
-      <Frame x="117.90" y="-265.80" scaleX="0.999" scaleY="1.084" rotation="-7.314" index="4"/>
-      <Frame x="111.05" y="-265.80" scaleX="0.999" scaleY="1.102" rotation="-9.285" index="5"/>
-      <Frame x="104.40" y="-265.50" scaleX="0.999" scaleY="1.121" rotation="-11.066" index="6"/>
-      <Frame x="97.50" y="-264.40" scaleX="0.999" scaleY="1.139" rotation="-13.039" index="7"/>
+      <Frame x="143.70" y="-262.95" scaleX="1.189" scaleY="1.189" rotation="-3.536" index="0"/>
+      <Frame x="136.85" y="-263.80" scaleX="1.200" scaleY="1.200" rotation="-7.563" index="1"/>
+      <Frame x="129.95" y="-264.15" scaleX="1.210" scaleY="1.210" rotation="-11.780" index="2"/>
+      <Frame x="123.35" y="-264.30" scaleX="1.221" scaleY="1.221" rotation="-15.814" index="3"/>
+      <Frame x="116.75" y="-263.75" scaleX="1.232" scaleY="1.232" rotation="-20.034" index="4"/>
+      <Frame x="110.55" y="-263.05" scaleX="1.243" scaleY="1.243" rotation="-24.068" index="5"/>
+      <Frame x="104.35" y="-261.85" scaleX="1.256" scaleY="1.256" rotation="-28.250" index="6"/>
+      <Frame x="98.75" y="-260.25" scaleX="1.265" scaleY="1.265" rotation="-32.329" index="7"/>
     </Part>
     <Part name="Sc00_ptica_ruby">
       <Frame x="176.65" y="-283.20" scaleX="0.998" scaleY="0.998" rotation="48.877" alpha="0.01" index="0"/>
@@ -482,21 +482,21 @@
       <Frame x="69.45" y="-277.10" rotation="18.500" index="0"/>
       <Frame x="64.10" y="-260.10" scaleX="0.999" scaleY="0.999" rotation="10.514" index="1"/>
       <Frame x="59.55" y="-243.00" rotation="2.518" index="2"/>
-      <Frame x="55.90" y="-225.85" rotation="-5.287" index="3"/>
+      <Frame x="55.90" y="-225.90" rotation="-5.287" index="3"/>
       <Frame x="53.10" y="-208.70" scaleX="0.999" scaleY="0.999" rotation="-13.287" index="4"/>
-      <Frame x="51.15" y="-191.80" scaleX="0.999" scaleY="0.999" rotation="-21.294" index="5"/>
-      <Frame x="50.05" y="-175.15" scaleX="0.999" scaleY="0.999" rotation="-29.305" index="6"/>
-      <Frame x="49.60" y="-159.00" scaleX="0.998" scaleY="0.998" rotation="-37.321" index="7"/>
+      <Frame x="51.15" y="-191.85" scaleX="0.999" scaleY="0.999" rotation="-21.294" index="5"/>
+      <Frame x="50.00" y="-175.15" scaleX="0.999" scaleY="0.999" rotation="-29.305" index="6"/>
+      <Frame x="49.60" y="-159.05" scaleX="0.998" scaleY="0.998" rotation="-37.321" index="7"/>
     </Part>
     <Part name="Sc00_ptica_body">
-      <Frame x="110.45" y="-239.15" rotation="2.528" index="0"/>
-      <Frame x="104.10" y="-232.15" rotation="-3.308" index="1"/>
-      <Frame x="97.95" y="-223.95" scaleX="0.999" scaleY="0.999" rotation="-9.525" index="2"/>
-      <Frame x="92.80" y="-215.25" scaleX="0.999" scaleY="0.999" rotation="-15.561" index="3"/>
-      <Frame x="88.35" y="-205.45" scaleX="0.999" scaleY="0.999" rotation="-21.786" index="4"/>
-      <Frame x="85.00" y="-195.45" scaleX="0.999" scaleY="0.999" rotation="-27.826" index="5"/>
-      <Frame x="82.45" y="-184.75" rotation="-34.000" index="6"/>
-      <Frame x="81.25" y="-173.70" scaleX="0.998" scaleY="0.998" rotation="-40.103" index="7"/>
+      <Frame x="109.40" y="-236.10" rotation="1.787" index="0"/>
+      <Frame x="103.55" y="-229.75" scaleX="0.998" scaleY="0.994" rotation="-4.024" index="1"/>
+      <Frame x="98.30" y="-222.25" scaleX="0.995" scaleY="0.987" rotation="-10.028" index="2"/>
+      <Frame x="93.90" y="-214.20" scaleX="0.993" scaleY="0.981" rotation="-16.037" index="3"/>
+      <Frame x="90.45" y="-205.50" scaleX="0.991" scaleY="0.974" rotation="-22.049" index="4"/>
+      <Frame x="88.00" y="-196.30" scaleX="0.988" scaleY="0.968" rotation="-28.064" index="5"/>
+      <Frame x="86.50" y="-186.65" scaleX="0.986" scaleY="0.962" rotation="-34.082" index="6"/>
+      <Frame x="86.10" y="-176.80" scaleX="0.984" scaleY="0.955" rotation="-40.100" index="7"/>
     </Part>
     <Part name="Sc00_ptica_feather1">
       <Frame x="120.15" y="-348.60" scaleX="1.003" scaleY="0.993" rotation="-4.772" index="0"/>
@@ -539,14 +539,14 @@
       <Frame y="-151.00" index="7"/>
     </Part>
     <Part name="Sc00_ptica_neck">
-      <Frame x="91.30" y="-263.10" scaleX="0.998" scaleY="1.157" rotation="-14.821" index="0"/>
-      <Frame x="82.65" y="-251.25" scaleX="0.998" scaleY="1.157" rotation="-21.046" index="1"/>
-      <Frame x="75.15" y="-239.20" scaleX="0.998" scaleY="1.157" rotation="-27.083" index="2"/>
-      <Frame x="68.45" y="-226.55" scaleX="0.998" scaleY="1.157" rotation="-33.310" index="3"/>
-      <Frame x="62.75" y="-214.00" scaleX="0.998" scaleY="1.157" rotation="-39.352" index="4"/>
-      <Frame x="58.10" y="-201.35" scaleX="0.998" scaleY="1.157" rotation="-45.397" index="5"/>
-      <Frame x="54.45" y="-188.45" scaleX="0.998" scaleY="1.157" rotation="-51.626" index="6"/>
-      <Frame x="51.75" y="-176.00" scaleX="0.998" scaleY="1.157" rotation="-57.667" index="7"/>
+      <Frame x="93.35" y="-258.50" scaleX="1.276" scaleY="1.276" rotation="-36.365" index="0"/>
+      <Frame x="87.00" y="-247.95" scaleX="1.269" scaleY="1.269" rotation="-42.102" index="1"/>
+      <Frame x="81.55" y="-237.35" scaleX="1.262" scaleY="1.262" rotation="-47.650" index="2"/>
+      <Frame x="76.90" y="-226.25" scaleX="1.256" scaleY="1.256" rotation="-53.385" index="3"/>
+      <Frame x="73.00" y="-215.30" scaleX="1.249" scaleY="1.249" rotation="-58.932" index="4"/>
+      <Frame x="70.05" y="-204.15" scaleX="1.242" scaleY="1.242" rotation="-64.666" index="5"/>
+      <Frame x="67.75" y="-193.25" scaleX="1.236" scaleY="1.236" rotation="-70.208" index="6"/>
+      <Frame x="66.40" y="-182.20" scaleX="1.230" scaleY="1.230" rotation="-75.936" index="7"/>
     </Part>
     <Part name="Sc00_ptica_ruby">
       <Frame x="163.95" y="-232.75" scaleX="0.998" scaleY="0.998" rotation="37.116" alpha="0.01" index="0"/>
@@ -567,16 +567,16 @@
       <Frame x="42.00" y="-117.30" scaleX="0.998" scaleY="0.998" rotation="-51.390" index="3"/>
     </Part>
     <Part name="Sc00_ptica_beak2">
-      <Frame x="49.80" y="-143.35" scaleX="0.998" scaleY="0.998" rotation="-45.152" index="0"/>
-      <Frame x="57.10" y="-132.45" scaleX="0.998" scaleY="0.998" rotation="-52.874" index="1"/>
-      <Frame x="64.70" y="-122.05" scaleX="0.999" scaleY="0.999" rotation="-60.410" index="2"/>
-      <Frame x="72.65" y="-112.45" scaleX="0.999" scaleY="0.999" rotation="-67.941" index="3"/>
+      <Frame x="49.80" y="-143.40" scaleX="0.998" scaleY="0.998" rotation="-45.152" index="0"/>
+      <Frame x="57.05" y="-132.50" scaleX="0.998" scaleY="0.998" rotation="-52.874" index="1"/>
+      <Frame x="64.65" y="-122.10" scaleX="0.999" scaleY="0.999" rotation="-60.410" index="2"/>
+      <Frame x="72.65" y="-112.50" scaleX="0.999" scaleY="0.999" rotation="-67.941" index="3"/>
     </Part>
     <Part name="Sc00_ptica_body">
-      <Frame x="81.00" y="-162.45" scaleX="0.998" scaleY="0.998" rotation="-46.150" index="0"/>
-      <Frame x="83.75" y="-159.40" scaleX="0.980" scaleY="0.998" rotation="-48.183" index="1"/>
-      <Frame x="86.60" y="-156.15" scaleX="0.961" scaleY="0.997" rotation="-50.405" index="2"/>
-      <Frame x="89.40" y="-153.25" scaleX="0.943" scaleY="0.996" rotation="-52.438" index="3"/>
+      <Frame x="86.85" y="-166.85" scaleX="0.982" scaleY="0.949" rotation="-46.119" index="0"/>
+      <Frame x="87.70" y="-162.85" scaleX="0.980" scaleY="0.943" rotation="-48.410" index="1"/>
+      <Frame x="88.80" y="-158.75" scaleX="0.978" scaleY="0.937" rotation="-50.888" index="2"/>
+      <Frame x="90.15" y="-154.80" scaleX="0.976" scaleY="0.931" rotation="-53.178" index="3"/>
     </Part>
     <Part name="Sc00_ptica_feather1">
       <Frame x="20.55" y="-241.80" scaleX="1.002" scaleY="0.992" rotation="-53.641" index="0"/>
@@ -603,10 +603,10 @@
       <Frame y="-151.00" index="3"/>
     </Part>
     <Part name="Sc00_ptica_neck">
-      <Frame x="50.05" y="-163.65" scaleX="0.998" scaleY="1.157" rotation="-63.708" index="0"/>
-      <Frame x="52.75" y="-153.90" scaleX="1.026" scaleY="1.165" rotation="-68.218" index="1"/>
-      <Frame x="56.15" y="-144.25" scaleX="1.054" scaleY="1.174" rotation="-72.728" index="2"/>
-      <Frame x="60.25" y="-134.80" scaleX="1.082" scaleY="1.182" rotation="-77.235" index="3"/>
+      <Frame x="65.75" y="-171.70" scaleX="1.223" scaleY="1.223" rotation="-81.473" index="0"/>
+      <Frame x="69.35" y="-162.45" scaleX="1.217" scaleY="1.217" rotation="-87.445" index="1"/>
+      <Frame x="73.60" y="-154.30" scaleX="1.210" scaleY="1.210" rotation="-93.038" index="2"/>
+      <Frame x="78.85" y="-146.05" scaleX="1.203" scaleY="1.203" rotation="-99.010" index="3"/>
     </Part>
     <Part name="Sc00_ptica_ruby">
       <Frame x="151.40" y="-181.65" scaleX="0.999" scaleY="0.999" rotation="25.548" alpha="0.01" index="0"/>
@@ -625,20 +625,20 @@
       <Frame x="67.35" y="-64.55" scaleX="0.999" scaleY="0.999" rotation="-64.944" index="5"/>
     </Part>
     <Part name="Sc00_ptica_beak2">
-      <Frame x="80.85" y="-103.60" scaleX="0.999" scaleY="0.999" rotation="-75.468" index="0"/>
-      <Frame x="84.45" y="-96.15" scaleX="0.999" scaleY="0.999" rotation="-76.725" index="1"/>
-      <Frame x="88.20" y="-88.85" scaleX="0.999" scaleY="0.999" rotation="-77.984" index="2"/>
-      <Frame x="91.80" y="-81.55" rotation="-79.249" index="3"/>
-      <Frame x="95.65" y="-74.25" scaleX="0.999" scaleY="0.999" rotation="-80.690" index="4"/>
-      <Frame x="99.35" y="-67.10" rotation="-81.948" index="5"/>
+      <Frame x="80.80" y="-103.65" scaleX="0.999" scaleY="0.999" rotation="-75.468" index="0"/>
+      <Frame x="84.40" y="-96.20" scaleX="0.999" scaleY="0.999" rotation="-76.725" index="1"/>
+      <Frame x="88.15" y="-88.90" scaleX="0.999" scaleY="0.999" rotation="-77.984" index="2"/>
+      <Frame x="91.75" y="-81.60" rotation="-79.249" index="3"/>
+      <Frame x="95.55" y="-74.30" scaleX="0.999" scaleY="0.999" rotation="-80.690" index="4"/>
+      <Frame x="99.25" y="-67.15" rotation="-81.948" index="5"/>
     </Part>
     <Part name="Sc00_ptica_body">
-      <Frame x="92.35" y="-150.30" scaleX="0.925" scaleY="0.995" rotation="-54.660" index="0"/>
-      <Frame x="93.75" y="-147.15" scaleX="0.922" scaleY="0.994" rotation="-55.689" index="1"/>
-      <Frame x="95.10" y="-143.90" scaleX="0.920" scaleY="0.993" rotation="-56.907" index="2"/>
-      <Frame x="96.45" y="-140.70" scaleX="0.918" scaleY="0.992" rotation="-57.938" index="3"/>
-      <Frame x="98.05" y="-137.55" scaleX="0.915" scaleY="0.991" rotation="-59.155" index="4"/>
-      <Frame x="99.30" y="-134.35" scaleX="0.913" scaleY="0.990" rotation="-60.184" index="5"/>
+      <Frame x="91.60" y="-150.70" scaleX="0.974" scaleY="0.925" rotation="-55.655" index="0"/>
+      <Frame x="92.70" y="-146.35" scaleX="0.973" scaleY="0.926" rotation="-56.648" index="1"/>
+      <Frame x="93.65" y="-142.00" scaleX="0.973" scaleY="0.928" rotation="-57.644" index="2"/>
+      <Frame x="94.60" y="-137.95" scaleX="0.973" scaleY="0.931" rotation="-58.500" index="3"/>
+      <Frame x="95.80" y="-133.60" scaleX="0.971" scaleY="0.931" rotation="-59.442" index="4"/>
+      <Frame x="96.85" y="-129.30" scaleX="0.971" scaleY="0.933" rotation="-60.435" index="5"/>
     </Part>
     <Part name="Sc00_ptica_feather1">
       <Frame x="17.30" y="-193.70" scaleX="1.002" scaleY="0.992" rotation="-68.912" index="0"/>
@@ -673,12 +673,12 @@
       <Frame y="-151.00" index="5"/>
     </Part>
     <Part name="Sc00_ptica_neck">
-      <Frame x="65.00" y="-125.60" scaleX="1.110" scaleY="1.190" rotation="-81.741" index="0"/>
-      <Frame x="70.55" y="-116.65" scaleX="1.138" scaleY="1.199" rotation="-86.244" index="1"/>
-      <Frame x="76.50" y="-108.35" scaleX="1.166" scaleY="1.207" rotation="-90.558" index="2"/>
-      <Frame x="83.40" y="-100.30" scaleX="1.194" scaleY="1.215" rotation="-95.059" index="3"/>
-      <Frame x="90.80" y="-92.75" scaleX="1.221" scaleY="1.223" rotation="-99.562" index="4"/>
-      <Frame x="98.90" y="-85.85" scaleX="1.249" scaleY="1.231" rotation="-104.069" index="5"/>
+      <Frame x="84.45" y="-138.45" scaleX="1.196" scaleY="1.196" rotation="-104.797" index="0"/>
+      <Frame x="88.25" y="-131.30" scaleX="1.189" scaleY="1.189" rotation="-108.531" index="1"/>
+      <Frame x="92.10" y="-124.60" scaleX="1.182" scaleY="1.182" rotation="-112.081" index="2"/>
+      <Frame x="96.20" y="-117.95" scaleX="1.175" scaleY="1.175" rotation="-115.818" index="3"/>
+      <Frame x="100.50" y="-111.75" scaleX="1.168" scaleY="1.168" rotation="-119.558" index="4"/>
+      <Frame x="104.75" y="-105.85" scaleX="1.161" scaleY="1.161" rotation="-123.110" index="5"/>
     </Part>
     <Part name="Sc00_ptica_ruby">
       <Frame x="145.15" y="-155.85" scaleX="0.999" scaleY="0.999" rotation="19.578" alpha="0.01" index="0"/>
@@ -696,14 +696,14 @@
       <Frame x="80.80" y="-49.50" scaleX="0.999" scaleY="0.999" rotation="-75.727" index="2"/>
     </Part>
     <Part name="Sc00_ptica_beak2">
-      <Frame x="103.00" y="-59.85" rotation="-83.207" index="0"/>
-      <Frame x="103.50" y="-58.85" rotation="-83.207" index="1"/>
-      <Frame x="104.00" y="-57.85" rotation="-83.207" index="2"/>
+      <Frame x="102.90" y="-59.90" rotation="-83.207" index="0"/>
+      <Frame x="103.40" y="-58.90" rotation="-83.207" index="1"/>
+      <Frame x="103.90" y="-57.90" rotation="-83.207" index="2"/>
     </Part>
     <Part name="Sc00_ptica_body">
-      <Frame x="100.80" y="-131.05" scaleX="0.911" scaleY="0.989" rotation="-61.403" index="0"/>
-      <Frame x="102.10" y="-130.95" scaleX="0.907" scaleY="0.990" rotation="-62.655" index="1"/>
-      <Frame x="103.45" y="-130.85" scaleX="0.904" scaleY="0.990" rotation="-63.908" index="2"/>
+      <Frame x="97.95" y="-125.00" scaleX="0.970" scaleY="0.935" rotation="-61.429" index="0"/>
+      <Frame x="98.35" y="-123.15" scaleX="0.975" scaleY="0.940" rotation="-62.698" index="1"/>
+      <Frame x="98.70" y="-120.90" scaleX="0.980" scaleY="0.945" rotation="-64.154" index="2"/>
     </Part>
     <Part name="Sc00_ptica_feather1">
       <Frame x="19.25" y="-119.55" scaleX="1.003" scaleY="0.993" rotation="-91.503" index="0"/>
@@ -726,9 +726,9 @@
       <Frame y="-151.00" index="2"/>
     </Part>
     <Part name="Sc00_ptica_neck">
-      <Frame x="107.40" y="-79.40" scaleX="1.276" scaleY="1.238" rotation="-108.576" index="0"/>
-      <Frame x="110.25" y="-78.40" scaleX="1.276" scaleY="1.238" rotation="-110.295" index="1"/>
-      <Frame x="112.85" y="-77.60" scaleX="1.276" scaleY="1.238" rotation="-111.829" index="2"/>
+      <Frame x="109.40" y="-100.10" scaleX="1.154" scaleY="1.154" rotation="-126.850" index="0"/>
+      <Frame x="108.90" y="-99.50" scaleX="1.147" scaleY="1.147" rotation="-126.851" index="1"/>
+      <Frame x="108.40" y="-98.90" scaleX="1.141" scaleY="1.141" rotation="-126.851" index="2"/>
     </Part>
     <Part name="Sc00_ptica_ruby">
       <Frame x="135.95" y="-116.95" scaleX="0.999" scaleY="0.999" rotation="10.816" alpha="0.01" index="0"/>
@@ -741,10 +741,10 @@
       <Frame x="85.05" y="-46.90" scaleX="0.999" scaleY="0.999" rotation="-79.485" index="0"/>
     </Part>
     <Part name="Sc00_ptica_beak2">
-      <Frame x="104.50" y="-56.85" rotation="-83.207" index="0"/>
+      <Frame x="104.40" y="-56.90" rotation="-83.207" index="0"/>
     </Part>
     <Part name="Sc00_ptica_body">
-      <Frame x="104.85" y="-131.15" scaleX="0.901" scaleY="0.990" rotation="-65.162" index="0"/>
+      <Frame x="99.15" y="-119.05" scaleX="0.985" scaleY="0.950" rotation="-65.423" index="0"/>
     </Part>
     <Part name="Sc00_ptica_feather1">
       <Frame x="21.00" y="-112.95" scaleX="1.003" scaleY="0.993" rotation="-95.255" index="0"/>
@@ -759,7 +759,7 @@
       <Frame y="-151.00" index="0"/>
     </Part>
     <Part name="Sc00_ptica_neck">
-      <Frame x="115.75" y="-76.75" scaleX="1.276" scaleY="1.238" rotation="-113.548" index="0"/>
+      <Frame x="107.85" y="-98.30" scaleX="1.134" scaleY="1.134" rotation="-126.850" index="0"/>
     </Part>
     <Part name="Sc00_ptica_ruby">
       <Frame x="131.55" y="-97.40" rotation="6.535" alpha="0.01" index="0"/>
@@ -777,24 +777,24 @@
       <Frame x="42.85" y="-124.30" scaleX="0.999" scaleY="0.999" rotation="-57.910" index="7"/>
     </Part>
     <Part name="Sc00_ptica_beak2">
-      <Frame x="105.00" y="-55.85" rotation="-83.207" index="0"/>
-      <Frame x="99.05" y="-65.50" scaleX="0.999" scaleY="0.999" rotation="-80.237" index="1"/>
-      <Frame x="93.35" y="-75.30" scaleX="0.999" scaleY="0.999" rotation="-77.456" index="2"/>
-      <Frame x="87.40" y="-85.20" scaleX="0.999" scaleY="0.999" rotation="-74.484" index="3"/>
-      <Frame x="81.75" y="-95.20" scaleX="0.999" scaleY="0.999" rotation="-71.699" index="4"/>
-      <Frame x="75.95" y="-105.40" rotation="-68.750" index="5"/>
-      <Frame x="70.35" y="-115.60" scaleX="0.999" scaleY="0.999" rotation="-65.937" index="6"/>
-      <Frame x="64.70" y="-125.95" scaleX="0.999" scaleY="0.999" rotation="-63.150" index="7"/>
+      <Frame x="104.90" y="-55.90" rotation="-83.207" index="0"/>
+      <Frame x="99.00" y="-65.55" scaleX="0.999" scaleY="0.999" rotation="-80.237" index="1"/>
+      <Frame x="93.25" y="-75.35" scaleX="0.999" scaleY="0.999" rotation="-77.456" index="2"/>
+      <Frame x="87.35" y="-85.25" scaleX="0.999" scaleY="0.999" rotation="-74.484" index="3"/>
+      <Frame x="81.75" y="-95.25" scaleX="0.999" scaleY="0.999" rotation="-71.699" index="4"/>
+      <Frame x="75.95" y="-105.45" rotation="-68.750" index="5"/>
+      <Frame x="70.30" y="-115.65" scaleX="0.999" scaleY="0.999" rotation="-65.937" index="6"/>
+      <Frame x="64.65" y="-126.00" scaleX="0.999" scaleY="0.999" rotation="-63.150" index="7"/>
     </Part>
     <Part name="Sc00_ptica_body">
-      <Frame x="105.95" y="-130.85" scaleX="0.898" scaleY="0.991" rotation="-66.415" index="0"/>
-      <Frame x="102.80" y="-134.35" scaleX="0.910" scaleY="0.992" rotation="-63.905" index="1"/>
-      <Frame x="99.55" y="-138.15" scaleX="0.923" scaleY="0.993" rotation="-61.205" index="2"/>
-      <Frame x="96.45" y="-141.70" scaleX="0.935" scaleY="0.994" rotation="-58.883" index="3"/>
-      <Frame x="93.25" y="-145.75" scaleX="0.948" scaleY="0.995" rotation="-56.184" index="4"/>
-      <Frame x="90.05" y="-149.70" scaleX="0.961" scaleY="0.995" rotation="-53.676" index="5"/>
-      <Frame x="87.05" y="-153.90" scaleX="0.973" scaleY="0.996" rotation="-51.166" index="6"/>
-      <Frame x="83.95" y="-158.00" scaleX="0.986" scaleY="0.997" rotation="-48.656" index="7"/>
+      <Frame x="99.70" y="-117.10" scaleX="0.991" scaleY="0.955" rotation="-66.692" index="0"/>
+      <Frame x="97.90" y="-122.65" scaleX="0.987" scaleY="0.951" rotation="-64.161" index="1"/>
+      <Frame x="96.35" y="-128.55" scaleX="0.984" scaleY="0.948" rotation="-61.442" index="2"/>
+      <Frame x="95.00" y="-134.05" scaleX="0.980" scaleY="0.945" rotation="-58.913" index="3"/>
+      <Frame x="93.65" y="-139.90" scaleX="0.978" scaleY="0.943" rotation="-56.250" index="4"/>
+      <Frame x="92.80" y="-145.45" scaleX="0.974" scaleY="0.938" rotation="-53.659" index="5"/>
+      <Frame x="92.05" y="-150.95" scaleX="0.970" scaleY="0.935" rotation="-51.129" index="6"/>
+      <Frame x="91.45" y="-156.70" scaleX="0.967" scaleY="0.932" rotation="-48.407" index="7"/>
     </Part>
     <Part name="Sc00_ptica_feather1">
       <Frame x="21.60" y="-110.70" scaleX="1.003" scaleY="0.993" rotation="-96.505" index="0"/>
@@ -837,14 +837,14 @@
       <Frame y="-151.00" index="7"/>
     </Part>
     <Part name="Sc00_ptica_neck">
-      <Frame x="118.40" y="-76.05" scaleX="1.276" scaleY="1.238" rotation="-115.078" index="0"/>
-      <Frame x="106.00" y="-83.45" scaleX="1.243" scaleY="1.229" rotation="-108.750" index="1"/>
-      <Frame x="94.35" y="-92.20" scaleX="1.207" scaleY="1.218" rotation="-102.276" index="2"/>
-      <Frame x="83.65" y="-102.30" scaleX="1.173" scaleY="1.209" rotation="-95.787" index="3"/>
-      <Frame x="74.45" y="-112.90" scaleX="1.138" scaleY="1.199" rotation="-89.490" index="4"/>
-      <Frame x="66.40" y="-124.75" scaleX="1.103" scaleY="1.188" rotation="-83.192" index="5"/>
-      <Frame x="59.55" y="-137.20" scaleX="1.068" scaleY="1.178" rotation="-76.700" index="6"/>
-      <Frame x="54.00" y="-150.35" scaleX="1.033" scaleY="1.167" rotation="-70.205" index="7"/>
+      <Frame x="107.35" y="-97.65" scaleX="1.127" scaleY="1.127" rotation="-126.850" index="0"/>
+      <Frame x="99.25" y="-106.10" scaleX="1.120" scaleY="1.120" rotation="-119.580" index="1"/>
+      <Frame x="92.00" y="-115.40" scaleX="1.114" scaleY="1.114" rotation="-112.312" index="2"/>
+      <Frame x="85.75" y="-125.60" scaleX="1.108" scaleY="1.108" rotation="-105.048" index="3"/>
+      <Frame x="80.50" y="-136.35" scaleX="1.101" scaleY="1.101" rotation="-97.788" index="4"/>
+      <Frame x="76.30" y="-147.65" scaleX="1.095" scaleY="1.095" rotation="-90.535" index="5"/>
+      <Frame x="73.40" y="-159.10" scaleX="1.088" scaleY="1.088" rotation="-83.473" index="6"/>
+      <Frame x="71.55" y="-170.95" scaleX="1.081" scaleY="1.081" rotation="-76.215" index="7"/>
     </Part>
     <Part name="Sc00_ptica_ruby">
       <Frame x="124.95" y="-68.15" rotation="0.032" index="0"/>
@@ -868,8 +868,8 @@
       <Frame x="76.15" y="-281.45" scaleX="0.999" scaleY="0.999" rotation="17.820" index="6"/>
     </Part>
     <Part name="Sc00_ptica_beak2">
-      <Frame x="59.05" y="-136.40" scaleX="0.999" scaleY="0.999" rotation="-60.178" index="0"/>
-      <Frame x="59.30" y="-155.00" scaleX="0.998" scaleY="0.998" rotation="-47.356" index="1"/>
+      <Frame x="59.05" y="-136.45" scaleX="0.999" scaleY="0.999" rotation="-60.178" index="0"/>
+      <Frame x="59.25" y="-155.05" scaleX="0.998" scaleY="0.998" rotation="-47.356" index="1"/>
       <Frame x="60.95" y="-175.20" scaleX="0.998" scaleY="0.998" rotation="-34.344" index="2"/>
       <Frame x="64.50" y="-196.65" scaleX="0.999" scaleY="0.999" rotation="-21.527" index="3"/>
       <Frame x="70.05" y="-219.20" rotation="-8.536" index="4"/>
@@ -877,13 +877,13 @@
       <Frame x="87.95" y="-264.25" scaleX="0.999" scaleY="0.999" rotation="17.047" index="6"/>
     </Part>
     <Part name="Sc00_ptica_body">
-      <Frame x="81.00" y="-162.45" scaleX="0.998" scaleY="0.998" rotation="-46.150" index="0"/>
-      <Frame x="80.50" y="-176.75" scaleX="0.994" scaleY="1.014" rotation="-39.602" index="1"/>
-      <Frame x="81.55" y="-190.75" scaleX="0.991" scaleY="1.032" rotation="-33.000" index="2"/>
-      <Frame x="84.45" y="-204.55" scaleX="0.985" scaleY="1.046" rotation="-26.324" index="3"/>
-      <Frame x="88.55" y="-217.50" scaleX="0.980" scaleY="1.062" rotation="-19.784" index="4"/>
-      <Frame x="94.10" y="-230.00" scaleX="0.976" scaleY="1.079" rotation="-13.059" index="5"/>
-      <Frame x="100.80" y="-241.30" scaleX="0.972" scaleY="1.095" rotation="-6.527" index="6"/>
+      <Frame x="91.05" y="-162.20" scaleX="0.964" scaleY="0.929" rotation="-45.876" index="0"/>
+      <Frame x="88.65" y="-174.75" scaleX="0.967" scaleY="0.935" rotation="-39.373" index="1"/>
+      <Frame x="87.50" y="-186.90" scaleX="0.970" scaleY="0.941" rotation="-33.059" index="2"/>
+      <Frame x="87.50" y="-198.95" scaleX="0.973" scaleY="0.948" rotation="-26.557" index="3"/>
+      <Frame x="88.70" y="-210.70" scaleX="0.977" scaleY="0.955" rotation="-20.060" index="4"/>
+      <Frame x="91.00" y="-221.65" scaleX="0.980" scaleY="0.961" rotation="-13.567" index="5"/>
+      <Frame x="94.10" y="-231.85" scaleX="0.984" scaleY="0.968" rotation="-7.266" index="6"/>
     </Part>
     <Part name="Sc00_ptica_feather1">
       <Frame x="20.55" y="-241.80" scaleX="1.002" scaleY="0.992" rotation="-53.641" index="0"/>
@@ -922,13 +922,13 @@
       <Frame y="-151.00" index="6"/>
     </Part>
     <Part name="Sc00_ptica_neck">
-      <Frame x="50.05" y="-163.65" scaleX="0.998" scaleY="1.157" rotation="-63.708" index="0"/>
-      <Frame x="50.95" y="-184.30" scaleX="0.998" scaleY="1.153" rotation="-54.656" index="1"/>
-      <Frame x="55.15" y="-205.00" scaleX="0.998" scaleY="1.149" rotation="-45.600" index="2"/>
-      <Frame x="62.55" y="-225.35" scaleX="0.998" scaleY="1.146" rotation="-36.359" index="3"/>
-      <Frame x="72.90" y="-244.25" scaleX="0.998" scaleY="1.143" rotation="-27.304" index="4"/>
-      <Frame x="86.20" y="-261.70" scaleX="0.999" scaleY="1.140" rotation="-18.071" index="5"/>
-      <Frame x="101.30" y="-276.60" scaleX="0.999" scaleY="1.137" rotation="-9.030" index="6"/>
+      <Frame x="70.95" y="-182.90" scaleX="1.073" scaleY="1.073" rotation="-68.951" index="0"/>
+      <Frame x="74.45" y="-200.20" scaleX="1.066" scaleY="1.066" rotation="-59.915" index="1"/>
+      <Frame x="79.65" y="-217.15" scaleX="1.059" scaleY="1.059" rotation="-50.878" index="2"/>
+      <Frame x="86.55" y="-233.50" scaleX="1.053" scaleY="1.053" rotation="-41.836" index="3"/>
+      <Frame x="95.10" y="-249.10" scaleX="1.046" scaleY="1.046" rotation="-32.609" index="4"/>
+      <Frame x="104.95" y="-263.35" scaleX="1.039" scaleY="1.039" rotation="-23.572" index="5"/>
+      <Frame x="116.00" y="-276.30" scaleX="1.033" scaleY="1.033" rotation="-14.544" index="6"/>
     </Part>
     <Part name="Sc00_ptica_ruby">
       <Frame x="76.95" y="-131.15" rotation="0.032" index="0"/>
@@ -948,16 +948,16 @@
       <Frame x="100.70" y="-297.05" scaleX="0.999" scaleY="0.999" rotation="29.857" index="3"/>
     </Part>
     <Part name="Sc00_ptica_beak2">
-      <Frame x="100.10" y="-286.10" scaleX="0.999" scaleY="0.999" rotation="29.858" index="0"/>
-      <Frame x="103.10" y="-283.70" scaleX="0.999" scaleY="0.999" rotation="29.858" index="1"/>
-      <Frame x="106.10" y="-281.30" scaleX="0.999" scaleY="0.999" rotation="29.858" index="2"/>
-      <Frame x="109.10" y="-278.90" scaleX="0.999" scaleY="0.999" rotation="29.858" index="3"/>
+      <Frame x="100.10" y="-286.05" scaleX="0.999" scaleY="0.999" rotation="29.858" index="0"/>
+      <Frame x="103.10" y="-283.65" scaleX="0.999" scaleY="0.999" rotation="29.858" index="1"/>
+      <Frame x="106.10" y="-281.25" scaleX="0.999" scaleY="0.999" rotation="29.858" index="2"/>
+      <Frame x="109.10" y="-278.85" scaleX="0.999" scaleY="0.999" rotation="29.858" index="3"/>
     </Part>
     <Part name="Sc00_ptica_body">
-      <Frame x="108.75" y="-251.50" scaleX="0.968" scaleY="1.111" index="0"/>
-      <Frame x="108.25" y="-248.35" scaleX="0.976" scaleY="1.083" index="1"/>
-      <Frame x="107.75" y="-245.10" scaleX="0.984" scaleY="1.056" index="2"/>
-      <Frame x="107.35" y="-241.90" scaleX="0.992" scaleY="1.028" index="3"/>
+      <Frame x="98.40" y="-241.40" scaleX="0.987" scaleY="0.975" rotation="-0.780" index="0"/>
+      <Frame x="100.50" y="-240.70" scaleX="0.990" scaleY="0.981" rotation="-0.538" index="1"/>
+      <Frame x="102.75" y="-240.05" scaleX="0.994" scaleY="0.987" rotation="-0.295" index="2"/>
+      <Frame x="104.95" y="-239.45" scaleX="0.997" scaleY="0.994" rotation="-0.053" index="3"/>
     </Part>
     <Part name="Sc00_ptica_feather1">
       <Frame x="121.80" y="-352.50" scaleX="0.999" scaleY="0.999" rotation="-23.792" index="0"/>
@@ -984,10 +984,10 @@
       <Frame y="-151.00" index="3"/>
     </Part>
     <Part name="Sc00_ptica_neck">
-      <Frame x="118.45" y="-289.05" scaleY="1.134" index="0"/>
-      <Frame x="123.05" y="-287.05" scaleY="1.100" index="1"/>
-      <Frame x="127.20" y="-284.80" scaleY="1.067" index="2"/>
-      <Frame x="131.10" y="-282.25" scaleY="1.033" index="3"/>
+      <Frame x="127.95" y="-287.75" scaleX="1.027" scaleY="1.027" rotation="-5.522" index="0"/>
+      <Frame x="129.75" y="-285.80" scaleX="1.020" scaleY="1.020" rotation="-4.049" index="1"/>
+      <Frame x="131.35" y="-283.70" scaleX="1.013" scaleY="1.013" rotation="-2.761" index="2"/>
+      <Frame x="133.25" y="-281.65" scaleX="1.007" scaleY="1.007" rotation="-1.285" index="3"/>
     </Part>
     <Part name="Sc00_ptica_ruby">
       <Frame x="69.85" y="-264.60" index="0"/>
@@ -1001,7 +1001,7 @@
       <Frame x="103.70" y="-294.65" scaleX="0.999" scaleY="0.999" rotation="29.857" index="0"/>
     </Part>
     <Part name="Sc00_ptica_beak2">
-      <Frame x="112.10" y="-276.50" scaleX="0.999" scaleY="0.999" rotation="29.858" index="0"/>
+      <Frame x="112.10" y="-276.45" scaleX="0.999" scaleY="0.999" rotation="29.858" index="0"/>
     </Part>
     <Part name="Sc00_ptica_body">
       <Frame x="106.85" y="-238.65" index="0"/>

@@ -216,8 +216,8 @@
 		ED52C5F816C940D40030831E /* Sc03_Sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sc03_Sheet.png; sourceTree = "<group>"; };
 		ED52C5FD16C941060030831E /* Sc03_Anim.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Sc03_Anim.xml; sourceTree = "<group>"; };
 		ED52C5FE16C941060030831E /* Sc03_Sheet.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Sc03_Sheet.xml; sourceTree = "<group>"; };
-		ED7E3FC916CD0C3D00C959E6 /* Sc00_Anim.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Sc00_Anim.xml; path = Resources/Sc00_Anim.xml; sourceTree = "<group>"; };
-		ED7E3FCA16CD0C3D00C959E6 /* Sc00_Sheet.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Sc00_Sheet.xml; path = Resources/Sc00_Sheet.xml; sourceTree = "<group>"; };
+		ED7E3FC916CD0C3D00C959E6 /* Sc00_Anim.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Sc00_Anim.xml; path = ../Sc00_Anim.xml; sourceTree = "<group>"; };
+		ED7E3FCA16CD0C3D00C959E6 /* Sc00_Sheet.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Sc00_Sheet.xml; path = ../Sc00_Sheet.xml; sourceTree = "<group>"; };
 		ED93C98416B2B336002D0438 /* HelloWorldLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HelloWorldLayer.mm; sourceTree = "<group>"; };
 		EDBF73D616AFECEA00F99767 /* FlashParserTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashParserTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDBF73DA16AFECEA00F99767 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -641,6 +641,8 @@
 		ED7DAE2D16CD1422009C0463 /* anim_sc00 */ = {
 			isa = PBXGroup;
 			children = (
+				ED7E3FC916CD0C3D00C959E6 /* Sc00_Anim.xml */,
+				ED7E3FCA16CD0C3D00C959E6 /* Sc00_Sheet.xml */,
 				ED32002F16CE2FF40006ADBA /* HD */,
 				ED32003216CE2FF40006ADBA /* SD */,
 			);
@@ -699,8 +701,6 @@
 			isa = PBXGroup;
 			children = (
 				ED7DAE2D16CD1422009C0463 /* anim_sc00 */,
-				ED7E3FC916CD0C3D00C959E6 /* Sc00_Anim.xml */,
-				ED7E3FCA16CD0C3D00C959E6 /* Sc00_Sheet.xml */,
 				ED0F0C9016C8D28B003DA1EA /* anim_sc03 */,
 				ED0ED0D716B11D9F00AF05F7 /* anim_sc01 */,
 				EDBF73EE16AFECEA00F99767 /* Default.png */,
