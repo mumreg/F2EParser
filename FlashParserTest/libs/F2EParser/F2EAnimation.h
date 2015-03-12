@@ -23,15 +23,16 @@ class F2EAnimation
 {
 public:
     F2EAnimation(const char *animationName);
-    vector<F2ESprite> sprites;
-    vector<F2EAnimationPart> animations;
+    vector<std::shared_ptr<F2ESprite>> sprites;
+    vector<std::shared_ptr<F2EAnimationPart>> animations;
     int framesCount;
     
 private:
     string getFileContent(const char *fileName);
     
-    string name;
-    F2EParser *parser;
+    string m_name;
+    std::shared_ptr<F2EParser> m_parser;
+    string m_emptyString;
 };
 
 #endif /* defined(__FlashParserTest__F2EAnimation__) */

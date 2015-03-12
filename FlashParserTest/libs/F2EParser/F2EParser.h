@@ -12,6 +12,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <memory>
 #include "rapidxml.hpp"
 
 #include "F2EUtils.h"
@@ -24,17 +25,15 @@ public:
     F2EParser();
     ~F2EParser();
     
-    int parseBuffer(string *buffer);
-    int parseSprites(string *buffer, vector<F2ESprite> *sprites);
-    int parseAnimations(string *buffer, vector<F2EAnimationPart> *animations);
+    int parseBuffer(const string &buffer);
+    int parseSprites(const string &buffer, vector<std::shared_ptr<F2ESprite>> &sprites);
+    int parseAnimations(const string &buffer, vector<std::shared_ptr<F2EAnimationPart>> &animations);
     
 private:
-    void saveAttrToSprite(string *attr_name, string *attr_value, F2ESprite *sprite);
-    void saveAttrToFrame(string *attr_name, string *attr_value, F2EFrame *frame);
-    void resetSprite(F2ESprite *sprite);
-    void resetFrame(F2EFrame *frame);
+    void saveAttrToSprite(const string &attr_name, const string &attr_value, std::shared_ptr<F2ESprite> &sprite);
+    void saveAttrToFrame(const string &attr_name, const string &attr_value, std::shared_ptr<F2EFrame> &frame);
     
-    rapidxml::xml_document<> *doc;
+    std::shared_ptr<rapidxml::xml_document<>> m_doc;
 };
 
 #endif /* defined(__FlashParserTest__F2EParser__) */

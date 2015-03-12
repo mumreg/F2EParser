@@ -84,11 +84,11 @@
         NSLog(@"F2E info: No sprite sheet. Using single sprites.");
     
     //load sprites
-    for (std::vector<F2ESprite>::iterator it = animation->sprites.begin(); it != animation->sprites.end(); it++)
+    for (auto it = animation->sprites.begin(); it != animation->sprites.end(); it++)
     {
-        F2ESprite spriteInfo = *it;
+        auto spriteInfo = (*it);
         
-        NSString *frameName = [NSString stringWithFormat:@"%s.png", spriteInfo.name.c_str()];
+        NSString *frameName = [NSString stringWithFormat:@"%s.png", spriteInfo->name.c_str()];
         
         CCSprite *sprite;
         if (sheetFlag)
@@ -96,13 +96,13 @@
         else
             sprite = [CCSprite spriteWithFile:frameName];
         
-        sprite.userData = malloc(sizeof(unsigned char)*spriteInfo.name.length());
-        strcpy((char *)sprite.userData, spriteInfo.name.c_str());
+        sprite.userData = malloc(sizeof(unsigned char)*spriteInfo->name.length());
+        strcpy((char *)sprite.userData, spriteInfo->name.c_str());
 
-        CGPoint anchorPoint = ccp(spriteInfo.anchorPointX/spriteInfo.width, 1.0f - spriteInfo.anchorPointY/spriteInfo.height);
+        CGPoint anchorPoint = ccp(spriteInfo->anchorPointX/spriteInfo->width, 1.0f - spriteInfo->anchorPointY/spriteInfo->height);
         [sprite setAnchorPoint:anchorPoint];
         
-        [sprite setZOrder:spriteInfo.zIndex];
+        [sprite setZOrder:spriteInfo->zIndex];
         
         [sprites addObject:sprite];
     }
@@ -112,31 +112,31 @@
 {
     animations = [[NSMutableArray alloc] init];
     
-    F2EAnimationPart animationPart = animation->animations[0];
+    auto animationPart = animation->animations[0];
     
     for (CCSprite *sprite in sprites) {
-        for (std::vector<F2EPart>::iterator it = animationPart.parts.begin(); it != animationPart.parts.end(); it++) {
-            F2EPart part = *it;
+        for (auto it = animationPart->parts.begin(); it != animationPart->parts.end(); it++) {
+            auto part = (*it);
         
-            NSString *partName = [NSString stringWithFormat:@"%s.png", part.partName.c_str()];
+            NSString *partName = [NSString stringWithFormat:@"%s.png", part->partName.c_str()];
             NSString *spriteName = [NSString stringWithFormat:@"%s.png", (char *) sprite.userData];
             
             if ([partName isEqualToString:spriteName])
             {
-                if (part.frames.size() != 0)
+                if (part->frames.size() != 0)
                 {
-                    F2EFrame frame = part.frames[0];
+                    auto frame = part->frames[0];
                     
-                    CGPoint position = ccp(frame.x, -1.0f*frame.y);
+                    CGPoint position = ccp(frame->x, -1.0f*frame->y);
                     [sprite setPosition:position];
                     
-                    [sprite setRotation:frame.rotation];
+                    [sprite setRotation:frame->rotation];
                     
-                    NSInteger opacity = (NSInteger)(255.0f*frame.opacity);
+                    NSInteger opacity = (NSInteger)(255.0f*frame->opacity);
                     [sprite setOpacity:opacity];
                     
-                    [sprite setScaleX:frame.scaleX];
-                    [sprite setScaleY:frame.scaleY];
+                    [sprite setScaleX:frame->scaleX];
+                    [sprite setScaleY:frame->scaleY];
                 }
                 
                 [self addChild:sprite];
@@ -148,11 +148,11 @@
 //time - time per one full animation cycle
 -(void)playAnimation:(NSString *)animationName time:(float)time
 {
-    for (std::vector<F2EAnimationPart>::iterator it = animation->animations.begin(); it != animation->animations.end(); it++) {
-        if ([animationName isEqualToString:[NSString stringWithFormat:@"%s", it->animationName.c_str()]])
+    for (auto it = animation->animations.begin(); it != animation->animations.end(); it++) {
+        if ([animationName isEqualToString:[NSString stringWithFormat:@"%s", (*it)->animationName.c_str()]])
         {   
             animationObj *obj = [[animationObj alloc] init];
-            obj.part = &(*it);
+            obj.part = (*it).get();
             obj.time = time;
             
             [animationQueue enqueue:obj];
@@ -178,11 +178,11 @@
     //time per frame
     float dt = time/animation->framesCount;
     
-    std::vector<F2EAnimationPart>::iterator it = animation->animations.begin();
+    auto it = animation->animations.begin();
     for (; it != animation->animations.end(); it++) {
         animationObj *obj = [[animationObj alloc] init];
-        obj.part = &(*it);
-        obj.time = it->frameCount*dt;
+        obj.part = (*it).get();
+        obj.time = (*it)->frameCount*dt;
         
         [animationQueue addObject:obj];
         [obj release];
@@ -204,19 +204,19 @@
 {
     if (frameCount < currentAnimationPart->frameCount)
     {
-        std::vector<F2EPart>::iterator it = currentAnimationPart->parts.begin();
+        auto it = currentAnimationPart->parts.begin();
         
         for (; it != currentAnimationPart->parts.end(); it++) {
             for (CCSprite *sprite in sprites) {
                 
-                NSString *partName = [NSString stringWithFormat:@"%s.png", it->partName.c_str()];
+                NSString *partName = [NSString stringWithFormat:@"%s.png", (*it)->partName.c_str()];
                 NSString *spriteName = [NSString stringWithFormat:@"%s.png", (char *) sprite.userData];
                 
                 if ([partName isEqualToString:spriteName])
                 {
-                    if (frameCount < it->frames.size())
+                    if (frameCount < (*it)->frames.size())
                     {
-                        F2EFrame *frame = &(it->frames[frameCount]);
+                        auto frame = (*it)->frames[frameCount];
                         
                         CGPoint position = ccp(frame->x, -1.0f*frame->y);
                         [sprite setPosition:position];

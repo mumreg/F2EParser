@@ -14,28 +14,34 @@
 //
 F2EAnimation::F2EAnimation(const char *animationName)
 {
-    name = string(animationName);
+    m_name = string(animationName);
     
-    parser = new F2EParser();
+    m_parser = std::shared_ptr<F2EParser>(new F2EParser());
     
-    string fileName = name + string("_Sheet.xml");
+    string fileName = m_name + string("_Sheet.xml");
     string buffer = getFileContent(fileName.c_str());
     
     if (buffer[0] != '\0')
-        parser->parseSprites(&buffer, &sprites);
-    else
-        F2E_DEBUG("F2EAnimation error: couldn't find sprites sheet xml file\n");
+        m_parser->parseSprites(buffer, sprites);
+    else {
+#ifdef F2E_DEBUG
+        std::cout << "F2EAnimation error: couldn't find sprites sheet xml file" << std::endl;
+#endif
+    }
     
     fileName.clear();
     buffer.clear();
     
-    fileName = name + string("_Anim.xml");
+    fileName = m_name + string("_Anim.xml");
     buffer = getFileContent(fileName.c_str());
     
     if (buffer[0] != '\0')
-        framesCount = parser->parseAnimations(&buffer, &animations);
-    else
-        F2E_DEBUG("F2EAnimtion error: couldn't find animations xml file");
+        framesCount = m_parser->parseAnimations(buffer, animations);
+    else {
+#ifdef F2E_DEBUG
+        std::cout << "F2EAnimtion error: couldn't find animations xml file" << std::endl;
+#endif
+    }
 }
 
 string F2EAnimation::getFileContent(const char *fileName)
@@ -58,7 +64,9 @@ string F2EAnimation::getFileContent(const char *fileName)
     }
     else
     {
-        F2E_DEBUG("F2EAnimation error: couldn\'t open file\n");
-        return string('\0');
+#ifdef F2E_DEBUG
+        std::cout << "F2EAnimation error: couldn\'t open file" << std::endl;
+#endif
+        return m_emptyString;
     }
 }
